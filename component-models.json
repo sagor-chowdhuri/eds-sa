@@ -16,6 +16,22 @@
     ]
   },
   {
+    "id": "customimage",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text"
+      }
+    ]
+  },
+  {
     "id": "title",
     "fields": [
       {
@@ -176,36 +192,18 @@
         "multi": false
       },
       {
-        "id": "title",
-        "fields": [
-          {
-            "component": "text",
-            "name": "title",
-            "label": "Title"
-          },
-          {
-            "component": "reference",
-            "valueType": "string",
-            "name": "image",
-            "label": "Image",
-            "multi": false
-          },
-          {
-            "component": "select",
-            "name": "titleType",
-            "label": "Title Type",
-            "options": [
-              {
-                "name": "kaltura",
-                "value": "kaltura"
-              },
-              {
-                "name": "scene",
-                "value": "scene"
-              }
-            ]
-          }
-        ]
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   }
