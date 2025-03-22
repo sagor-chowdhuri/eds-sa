@@ -192,6 +192,17 @@
     ]
   },
   {
+    "id": "demo-comp",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Images",
+        "multi": false
+      }
+    ]
+  },
+  {
     "id": "video",
     "fields": [
       {
