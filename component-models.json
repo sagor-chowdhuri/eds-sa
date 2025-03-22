@@ -199,7 +199,8 @@
         "name": "image",
         "label": "Images",
         "multi": false
-      },  {
+      }, 
+      {
         "component": "select",
         "name": "boxSelector",
         "label": "Title Type",
@@ -229,6 +230,11 @@
             "value": "h6"
           }
         ]
+      },
+      {
+        "component": "text",
+        "name": "videoId",
+        "label": "videoId"
       }
     ]
   },
