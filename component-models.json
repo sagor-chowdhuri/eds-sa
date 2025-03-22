@@ -196,7 +196,7 @@
     "fields": [
       {
         "component": "select",
-        "name": "linkType",
+        "name": "imageTypeSelector",
         "label": "Type",
         "options": [
           {
