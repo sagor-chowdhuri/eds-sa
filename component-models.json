@@ -201,7 +201,7 @@
         "multi": false
       },  {
         "component": "select",
-        "name": "titleType",
+        "name": "boxSelector",
         "label": "Title Type",
         "options": [
           {
