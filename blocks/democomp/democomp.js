@@ -1,4 +1,4 @@
-export default function decorate(block) {
+export default async function decorate(block) {
   const h1 = document.createElement('h1');
   h1.textContent = 'Hello World';
   block.innerHTML = '';
