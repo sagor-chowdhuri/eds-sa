@@ -193,13 +193,7 @@
   },
   {
     "id": "demo-comp",
-    "fields": [
-      {
-        "component": "reference",
-        "name": "image",
-        "label": "Images",
-        "multi": false
-      }, 
+    "fields": [ 
       {
         "component": "select",
         "name": "boxSelector",
@@ -214,6 +208,12 @@
             "value": "kalturaId"
           }
         ]
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Images",
+        "multi": false
       },
       {
         "component": "text",
