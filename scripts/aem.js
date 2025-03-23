@@ -304,11 +304,7 @@ function createOptimizedPicture(
   const url = new URL(src, window.location.href);
   const picture = document.createElement('picture');
   const { pathname } = url;
-  const fileExtension = pathname.split('.').pop();
-  if (fileExtension === 'png') {
-    console.log('The image is a JPG file.' + pathname);
-  }
-  console.log('fileExtension - >' , fileExtension);
+
   const ext = pathname.substring(pathname.lastIndexOf('.') + 1);
 
   // webp
