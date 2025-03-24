@@ -173,7 +173,6 @@
         "label": "primary-hero",
         "name": "hero banner",
         "valueType": "string",
-        "collapsible": true,
         "fields": [
           {
             "component": "select",
@@ -197,7 +196,6 @@
             "label": "Image Details",
             "name": "HeroImage",
             "valueType": "string",
-            "collapsible": true,
             "condition": {
               "===": [
                 {
@@ -225,7 +223,6 @@
             "label": "Video Details",
             "name": "HeroVideo",
             "valueType": "string",
-            "collapsible": true,
             "condition": {
               "===": [
                 {
