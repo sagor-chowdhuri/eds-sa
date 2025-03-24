@@ -217,29 +217,8 @@
                 "label": "Alt Text"
               }
             ]
-          },
-          {
-            "component": "container",
-            "label": "Video Details",
-            "name": "HeroVideo",
-            "valueType": "string",
-            "condition": {
-              "===": [
-                {
-                  "var": "PrimarybackgroundType"
-                },
-                "videoSlide"
-              ]
-            },
-            "fields": [
-              {
-                "component": "text",
-                "name": "videoId",
-                "label": "Enter Video ID",
-                "value": ""
-              }
-            ]
           }
+          
         ]
       },
       {
