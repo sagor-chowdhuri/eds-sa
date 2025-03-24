@@ -173,6 +173,7 @@
         "label": "primary-hero",
         "name": "hero banner",
         "valueType": "string",
+        "collapsible": true,
         "fields": [
           {
             "component": "select",
@@ -196,6 +197,7 @@
             "label": "Image Details",
             "name": "HeroImage",
             "valueType": "string",
+            "collapsible": true,
             "condition": {
               "===": [
                 {
@@ -217,14 +219,44 @@
                 "label": "Alt Text"
               }
             ]
+          },
+          {
+            "component": "container",
+            "label": "Video Details",
+            "name": "HeroVideo",
+            "valueType": "string",
+            "collapsible": true,
+            "condition": {
+              "===": [
+                {
+                  "var": "PrimarybackgroundType"
+                },
+                "videoSlide"
+              ]
+            },
+            "fields": [
+              {
+                "component": "text",
+                "name": "videoId",
+                "label": "Enter Video ID",
+                "value": ""
+              }
+            ]
           }
-          
         ]
       },
       {
         "component": "richtext",
         "name": "text",
+        "value": "",
         "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "value": "",
+        "label": "Description",
         "valueType": "string"
       }
     ]
