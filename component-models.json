@@ -169,23 +169,61 @@
     "id": "hero",
     "fields": [
       {
-        "component": "reference",
+        "component": "container",
+        "label": "primary-hero",
+        "name": "hero banner",
         "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
+        "fields": [
+          {
+            "component": "select",
+            "valueType": "string",
+            "name": "PrimarybackgroundType",
+            "label": "Primary Background Type",
+            "options": [
+              {
+                "name": "Image",
+                "value": "imageSlide"
+              },
+              {
+                "name": "Video",
+                "value": "videoSlide"
+              }
+            ],
+            "multi": false
+          },
+          {
+            "component": "container",
+            "label": "Image Details",
+            "name": "HeroImage",
+            "valueType": "string",
+            "condition": {
+              "===": [
+                {
+                  "var": "PrimarybackgroundType"
+                },
+                "imageSlide"
+              ]
+            },
+            "fields": [
+              {
+                "component": "reference",
+                "name": "image",
+                "label": "Image",
+                "multi": false
+              },
+              {
+                "component": "text",
+                "name": "imageAlt",
+                "label": "Alt Text"
+              }
+            ]
+          }
+          
+        ]
       },
       {
         "component": "richtext",
         "name": "text",
-        "value": "",
         "label": "Text",
         "valueType": "string"
       }
