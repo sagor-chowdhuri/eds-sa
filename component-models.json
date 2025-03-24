@@ -169,24 +169,94 @@
     "id": "hero",
     "fields": [
       {
-        "component": "reference",
+        "component": "container",
+        "label": "primary-hero",
+        "name": "hero banner",
         "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "valueType": "string",
+            "name": "PrimarybackgroundType",
+            "label": "Primary Background Type",
+            "options": [
+              {
+                "name": "Image",
+                "value": "imageSlide"
+              },
+              {
+                "name": "Video",
+                "value": "videoSlide"
+              }
+            ],
+            "multi": false
+          },
+          {
+            "component": "container",
+            "label": "Image Details",
+            "name": "HeroImage",
+            "valueType": "string",
+            "collapsible": true,
+            "condition": {
+              "===": [
+                {
+                  "var": "PrimarybackgroundType"
+                },
+                "imageSlide"
+              ]
+            },
+            "fields": [
+              {
+                "component": "reference",
+                "name": "image",
+                "label": "Image",
+                "multi": false
+              },
+              {
+                "component": "text",
+                "name": "imageAlt",
+                "label": "Alt Text"
+              }
+            ]
+          },
+          {
+            "component": "container",
+            "label": "Video Details",
+            "name": "HeroVideo",
+            "valueType": "string",
+            "collapsible": true,
+            "condition": {
+              "===": [
+                {
+                  "var": "PrimarybackgroundType"
+                },
+                "videoSlide"
+              ]
+            },
+            "fields": [
+              {
+                "component": "text",
+                "name": "videoId",
+                "label": "Enter Video ID",
+                "value": ""
+              }
+            ]
+          }
+        ]
       },
       {
         "component": "richtext",
         "name": "text",
         "value": "",
         "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "value": "",
+        "label": "Description",
         "valueType": "string"
       }
     ]
