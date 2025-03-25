@@ -271,7 +271,7 @@
             "valueType": "string",
             "options": [
               {
-                "name": "Image",
+                "name": "image",
                 "value": "imageSlide"
               },
               {
@@ -283,10 +283,10 @@
         },
         {
           "component": "text",
-          "label": "Hidden text field",
-          "name": "hidden-text",
           "valueType": "string",
-          "condition": { "===": [{"var" : "media-type"}, "Image"] }
+          "label": "Image",
+          "name": "hidden-text",
+          "condition": { "===": [{"var" : "media-type"}, "image"] }
       }
     ]
 },
