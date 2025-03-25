@@ -265,9 +265,9 @@
     "id": "demo-comp",
     "fields": [
       {
-        "component": "reference",
+        "component": "text",
         "name": "image2",
-        "label": "Image1",
+        "label": "Image12",
         "multi": true
       }
   ]
