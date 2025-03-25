@@ -282,7 +282,7 @@
             "multi": false
         },
         {
-          "component": "text",
+          "component": "text-input",
           "valueType": "string",
           "label": "Image",
           "name": "hidden-text",
