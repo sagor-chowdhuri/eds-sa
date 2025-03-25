@@ -266,17 +266,16 @@
     "fields": [
         {
             "component": "select",
-            "label": "Select Type",
-            "name": "media-type",
-            "valueType": "string",
+            "name": "PrimarybackgroundType",
+            "label": "Primary Background Type",
             "options": [
               {
                 "name": "Image",
-                "value": "image"
+                "value": "imageSlide"
               },
               {
-                "name": "video",
-                "value": "video"
+                "name": "Video",
+                "value": "videoSlide"
               }
             ],
             "multi": false
@@ -286,14 +285,14 @@
         "valueType": "string",
         "label": "Video",
         "name": "hidden-text",
-        "condition": { "===": [{"var" : "media-type"}, "video"] }
+        "condition": { "===": [{"var" : "PrimarybackgroundType"}, "imageSlide"] }
     },
     {
       "component": "reference",
         "valueType": "string",
         "name": "Image",
         "label": "Alt",
-      "condition": { "===": [{"var" : "media-type"}, "image"] }
+        "condition": { "===": [{"var" : "PrimarybackgroundType"}, "videoSlide"] }
   }
     ]
 },
