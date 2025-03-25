@@ -264,28 +264,33 @@
   {
     "id": "demo-comp",
     "fields": [
-      {
-        "component": "boolean",
-        "label": "Shall the text field be ?",
-        "name": "reveal",
-        "valueType": "boolean"
-      },
-      {
-        "component": "text-input",
-        "label": "Hidden text field",
-        "name": "hidden-text",
-        "valueType": "string",
-        "condition": { "===": [{"var" : "reveal"}, true] }
-      },
         {
-          "component": "reference",
-          "valueType": "string",
-          "name": "image",
-          "label": "Image",
-        "condition": { "===": [{"var" : "reveal"}, true] }
-      }
+            "component": "boolean",
+            "label": "Shall the text field be revealed?",
+            "name": "reveal",
+            "valueType": "boolean"
+        },
+        {
+            "component": "group",
+            "name": "conditional-fields",
+            "condition": { "===": [{"var": "reveal"}, true] },
+            "fields": [
+                {
+                    "component": "text-input",
+                    "label": "Hidden text field",
+                    "name": "hidden-text",
+                    "valueType": "string"
+                },
+                {
+                    "component": "reference",
+                    "valueType": "string",
+                    "name": "image",
+                    "label": "Image"
+                }
+            ]
+        }
     ]
- },
+},
 
   {
     "id": "video",
