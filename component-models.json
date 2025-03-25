@@ -265,7 +265,7 @@
     "id": "demo-comp",
     "fields": [
         {
-            "component": "dropdown",
+            "component": "select",
             "label": "Select Type",
             "name": "media-type",
             "valueType": "string",
