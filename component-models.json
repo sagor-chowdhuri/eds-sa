@@ -261,23 +261,14 @@
       }
     ]
   },
+  
   {
-    "id": "demo-comp",
-    "fields": [
-      {
-        "component": "reference",
-        "name": "imageAlt1",
-        "label": "Alt",
-        "multi":true
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "label": "title1",
-        "multi":true
-      }
-  ]
+    "component": "reference",
+    "name": "external-component",
+    "label": "External Component",
+    "path": "/template.json"
   },
+
   {
     "id": "video",
     "fields": [

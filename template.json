@@ -1,0 +1,17 @@
+{
+    "id": "demo-comp",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "imageAlt1",
+        "label": "Alt",
+        "multi":true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "label": "title1",
+        "multi":true
+      }
+  ]
+  }
