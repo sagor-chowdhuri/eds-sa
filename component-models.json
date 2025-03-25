@@ -272,17 +272,17 @@
             "options": [
               {
                 "name": "image",
-                "value": "imageSlide"
+                "value": "image"
               },
               {
-                "name": "Video",
-                "value": "videoSlide"
+                "name": "video",
+                "value": "video"
               }
             ],
             "multi": false
         },
         {
-          "component": "text-input",
+          "component": "text",
           "valueType": "string",
           "label": "Image",
           "name": "hidden-text",
