@@ -269,20 +269,23 @@
         "valueType": "string",
         "label": "Backgroung Video ID",
         "name": "background",
-        "required": true
+        "required": true,
+        "description": "Upload video for the Primary Hero"
       },
       {
         "component": "text",
         "name": "text",
         "label": "Text",
         "valueType": "string",
-        "required": true
+        "required": true,
+        "description": "Enter main heading for the Primary Hero"
       },
       {
         "component": "richtext",
         "name": "description",
         "label": "Description",
-        "valueType": "string"
+        "valueType": "string",
+        "description": "Enter description for additional context"
       }
     ]
   },
