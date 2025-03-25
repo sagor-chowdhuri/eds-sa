@@ -265,9 +265,8 @@
     "id": "demo-comp",
     "fields": [
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
+        "component": "reference",
+        "name": "imageAlt1",
         "label": "Alt"
       }
   ]
