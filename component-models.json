@@ -263,10 +263,8 @@
   },
   
   {
-    "component": "reference",
-    "name": "external-component",
-    "label": "External Component",
-    "path": "/template.json"
+   
+    "target": "/template.json"
   },
 
   {
