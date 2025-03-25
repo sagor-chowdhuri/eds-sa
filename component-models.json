@@ -267,7 +267,8 @@
       {
         "component": "reference",
         "name": "image2",
-        "label": "Image1"
+        "label": "Image1",
+        "multi": true
       }
   ]
   },
