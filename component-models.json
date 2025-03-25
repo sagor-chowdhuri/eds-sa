@@ -307,20 +307,6 @@
             "imageSlide"
           ]
         }
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "video",
-        "label": "Video Path",
-        "condition": {
-          "===": [
-            {
-              "var": "PrimarybackgroundType"
-            },
-            "imageSlide"
-          ]
-        }
       }
     ]
   },
