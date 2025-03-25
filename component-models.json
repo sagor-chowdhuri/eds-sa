@@ -283,7 +283,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "label": "Video",
+        "label": "Video Details",
         "name": "hidden-text",
         "condition": { "===": [{"var" : "PrimarybackgroundType"}, "videoSlide"] }
     },
@@ -291,7 +291,7 @@
       "component": "reference",
         "valueType": "string",
         "name": "Image",
-        "label": "Alt",
+        "label": "Image Details",
         "condition": { "===": [{"var" : "PrimarybackgroundType"}, "imageSlide"] }
   },  {
     "component": "richtext",
