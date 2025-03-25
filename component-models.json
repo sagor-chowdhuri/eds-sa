@@ -280,7 +280,14 @@
               }
             ],
             "multi": false
-        }
+        },
+        {
+          "component": "text",
+          "label": "Hidden text field",
+          "name": "hidden-text",
+          "valueType": "string",
+          "condition": { "===": [{"var" : "media-type"}, "Image"] }
+      }
     ]
 },
 
