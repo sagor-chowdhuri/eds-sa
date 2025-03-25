@@ -267,7 +267,14 @@
       {
         "component": "reference",
         "name": "imageAlt1",
-        "label": "Alt"
+        "label": "Alt",
+        "multi":true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "label": "title1",
+        "multi":true
       }
   ]
   },
