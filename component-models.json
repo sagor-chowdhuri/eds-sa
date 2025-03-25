@@ -265,12 +265,14 @@
     "id": "demo-comp",
     "fields": [
       {
-        "component": "boolean",
-        "label": "Shall the text field ..?",
-        "name": "reveal",
-        "valueType": "boolean",
-        "multi": false
-      }]
+        "component": "reference",
+        "valueType": "string",
+        "name": "image-2",
+        "label": "Image 2",
+        "multi": true
+      
+      }
+  ]
   },
   {
     "id": "video",
