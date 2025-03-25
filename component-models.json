@@ -266,8 +266,9 @@
     "fields": [
       {
         "component": "text",
-        "name": "image2",
-        "label": "Image12",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
         "multi": true
       }
   ]
