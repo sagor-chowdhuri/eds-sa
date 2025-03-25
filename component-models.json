@@ -264,32 +264,21 @@
   {
     "id": "demo-comp",
     "fields": [
-        {
-            "component": "select",
-            "label": "Select Type",
-            "name": "media-type",
-            "valueType": "string",
-            "options": [
-              {
-                "name": "Image",
-                "value": "imageSlide"
-              },
-              {
-                "name": "Video",
-                "value": "videoSlide"
-              }
-            ],
-            "multi": false
-        },
-        {
-          "component": "text",
-          "label": "Hidden text field",
-          "name": "hidden-text",
-          "valueType": "string",
-          "condition": { "===": [{"var" : "media-type"}, "image"] }
+      {
+        "component": "boolean",
+        "label": "Shall the text field be ?",
+        "name": "reveal",
+        "valueType": "boolean"
+      },
+      {
+        "component": "text-input",
+        "label": "Hidden text field",
+        "name": "hidden-text",
+        "valueType": "string",
+        "condition": { "===": [{"var" : "reveal"}, true] }
       }
     ]
-},
+ },
 
   {
     "id": "video",
