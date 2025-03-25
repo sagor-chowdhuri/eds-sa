@@ -264,30 +264,30 @@
   {
     "id": "demo-comp",
     "fields": [
-      {
-        "component": "select",
-        "valueType": "string",
-        "name": "PrimarybackgroundType",
-        "label": "Primary Background Type",
-        "options": [
           {
-            "name": "Image",
-            "value": "imageSlide"
+            "component": "select",
+            "valueType": "string",
+            "name": "PrimarybackgroundType",
+            "label": "Primary Background Type",
+            "options": [
+              {
+                "name": "Image",
+                "value": "imageSlide"
+              },
+              {
+                "name": "Video",
+                "value": "videoSlide"
+              }
+            ],
+            "multi": false
           },
           {
-            "name": "Video",
-            "value": "videoSlide"
+            "component": "text-input",
+            "label": "Hidden text fields",
+            "name": "hidden-text",
+            "valueType": "string",
+            "condition": { "===": [{"var" : "Image"}] }
           }
-        ],
-        "multi": false
-      },
-      {
-        "component": "text-input",
-        "label": "Hidden text field",
-        "name": "hidden-text",
-        "valueType": "string",
-        "condition": { "===": [{"var" : "Image"}, true] }
-      }
     ]
  },
   {
