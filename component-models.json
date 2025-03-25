@@ -282,14 +282,14 @@
             "multi": false
         },   
       {
-        "component": "reference",
+        "component": "text",
         "valueType": "string",
         "label": "Image1",
         "name": "hidden-text",
         "condition": { "===": [{"var" : "media-type"}, "video"] }
     },
     {
-      "component": "text",
+      "component": "reference",
         "valueType": "string",
         "name": "imageAlt",
         "label": "Alt",
