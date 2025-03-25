@@ -263,62 +263,24 @@
   },
   {
     "id": "demo-comp",
-    "fields": [
-      {
-        "component": "select",
-        "name": "PrimarybackgroundType",
-        "label": "Primary Background Type",
-        "options": [
-          {
-            "name": "Image",
-            "value": "imageSlide"
-          },
-          {
-            "name": "Video",
-            "value": "videoSlide"
-          }
-        ],
-        "multi": false
-      },
+    "fields": [ 
       {
         "component": "text",
         "valueType": "string",
-        "label": "Video Details",
-        "name": "hidden-text",
-        "condition": {
-          "===": [
-            {
-              "var": "PrimarybackgroundType"
-            },
-            "videoSlide"
-          ]
-        }
+        "label": "Backgroung Video ID",
+        "name": "background",
+        "required": true
       },
       {
-        "component": "reference",
-        "valueType": "string",
-        "name": "Image",
-        "label": "Image Details",
-        "condition": {
-          "===": [
-            {
-              "var": "PrimarybackgroundType"
-            },
-            "imageSlide"
-          ]
-        }
-      },
-      {
-        "component": "richtext",
+        "component": "text",
         "name": "text",
-        "value": "",
         "label": "Text",
-        "valueType": "string"
+        "valueType": "string",
+        "required": true
       },
       {
         "component": "richtext",
         "name": "description",
-        "value": "",
         "label": "Description",
         "valueType": "string"
       }
