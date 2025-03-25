@@ -289,7 +289,12 @@
         "component": "text",
         "name": "videoId",
         "label": "videoId",
-        "readOnly": true
+        "required": true,
+        "validation": {
+        "numberMin": 0,
+        "numberMax": 88,
+        "customErrorMsg": "You also need 1.21 gigawatts."
+      }
       }
     ]
   },
