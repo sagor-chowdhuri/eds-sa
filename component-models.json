@@ -271,11 +271,11 @@
             "valueType": "string",
             "options": [
               {
-                "name": "Image1",
+                "name": "Image",
                 "value": "image"
               },
               {
-                "name": "video1",
+                "name": "video",
                 "value": "video"
               }
             ],
@@ -284,14 +284,14 @@
       {
         "component": "text",
         "valueType": "string",
-        "label": "Image1",
+        "label": "Video",
         "name": "hidden-text",
         "condition": { "===": [{"var" : "media-type"}, "video"] }
     },
     {
       "component": "reference",
         "valueType": "string",
-        "name": "imageAlt",
+        "name": "Image",
         "label": "Alt",
       "condition": { "===": [{"var" : "media-type"}, "image"] }
   }
