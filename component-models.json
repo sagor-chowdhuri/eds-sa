@@ -279,20 +279,6 @@
               }
             ],
             "multi": false
-        }, 
-        {
-          "component": "richtext",
-          "name": "text",
-          "value": "",
-          "label": "Text",
-          "valueType": "string"
-        },
-        {
-          "component": "richtext",
-          "name": "description",
-          "value": "",
-          "label": "Description",
-          "valueType": "string"
         },  
       {
         "component": "text",
@@ -307,6 +293,19 @@
         "name": "Image",
         "label": "Alt",
         "condition": { "===": [{"var" : "PrimarybackgroundType"}, "imageSlide"] }
+  },  {
+    "component": "richtext",
+    "name": "text",
+    "value": "",
+    "label": "Text",
+    "valueType": "string"
+  },
+  {
+    "component": "richtext",
+    "name": "description",
+    "value": "",
+    "label": "Description",
+    "valueType": "string"
   }
     ]
 },
