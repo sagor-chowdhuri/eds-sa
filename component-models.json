@@ -271,24 +271,25 @@
         "valueType": "boolean"
       },
       {
-        "component": "text-input",
-        "label": "Hidden text field",
-        "name": "hidden-text",
-        "valueType": "string"
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image"
+        "component": "container",
+        "condition": { "===": [{"var": "reveal"}, true] },
+        "fields": [
+          {
+            "component": "text-input",
+            "label": "Hidden text field",
+            "name": "hidden-text",
+            "valueType": "string"
+          },
+          {
+            "component": "reference",
+            "valueType": "string",
+            "name": "image",
+            "label": "Image"
+          }
+        ]
       }
-    ],
-    "condition": {
-      "===": [{"var": "reveal"}, true]
-    }
+    ]
   },
-  
-
   {
     "id": "video",
     "fields": [
