@@ -266,10 +266,10 @@
     "fields": [
       {
         "component": "boolean",
-        "label": "Shall the text field be?",
+        "label": "Shall the text field ..?",
         "name": "reveal",
         "valueType": "boolean",
-        "multi": true
+        "multi": false
       }]
   },
   {
