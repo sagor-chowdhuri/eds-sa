@@ -285,14 +285,14 @@
         "valueType": "string",
         "label": "Video",
         "name": "hidden-text",
-        "condition": { "===": [{"var" : "PrimarybackgroundType"}, "imageSlide"] }
+        "condition": { "===": [{"var" : "PrimarybackgroundType"}, "videoSlide"] }
     },
     {
       "component": "reference",
         "valueType": "string",
         "name": "Image",
         "label": "Alt",
-        "condition": { "===": [{"var" : "PrimarybackgroundType"}, "videoSlide"] }
+        "condition": { "===": [{"var" : "PrimarybackgroundType"}, "imageSlide"] }
   }
     ]
 },
