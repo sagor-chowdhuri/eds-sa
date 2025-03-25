@@ -276,6 +276,13 @@
         "name": "hidden-text",
         "valueType": "string",
         "condition": { "===": [{"var" : "reveal"}, true] }
+      },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+        "condition": { "===": [{"var" : "reveal"}, true] }
       }
     ]
  },
