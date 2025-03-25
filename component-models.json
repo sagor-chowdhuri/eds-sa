@@ -265,17 +265,28 @@
     "id": "demo-comp",
     "fields": [
       {
-        "component": "boolean",
-        "label": "Shall the text field be revealed?",
-        "name": "reveal",
-        "valueType": "boolean"
+        "component": "select",
+        "valueType": "string",
+        "name": "PrimarybackgroundType",
+        "label": "Primary Background Type",
+        "options": [
+          {
+            "name": "Image",
+            "value": "imageSlide"
+          },
+          {
+            "name": "Video",
+            "value": "videoSlide"
+          }
+        ],
+        "multi": false
       },
       {
         "component": "text-input",
         "label": "Hidden text field",
         "name": "hidden-text",
         "valueType": "string",
-        "condition": { "===": [{"var" : "reveal"}, true] }
+        "condition": { "===": [{"var" : "Image"}, true] }
       }
     ]
  },
