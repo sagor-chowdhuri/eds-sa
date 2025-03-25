@@ -281,13 +281,6 @@
             ],
             "multi": false
         },
-        {
-          "component": "reference",
-          "valueType": "string",
-          "label": "Image",
-          "name": "hidden-text",
-          "condition": { "===": [{"var" : "media-type"}, "image"] }
-      },
       {
         "component": "text",
         "valueType": "string",
