@@ -271,23 +271,16 @@
             "valueType": "string",
             "options": [
               {
-                "name": "Image",
+                "name": "Image1",
                 "value": "image"
               },
               {
-                "name": "video",
+                "name": "video1",
                 "value": "video"
               }
             ],
             "multi": false
-        },
-        {
-          "component": "reference",
-          "valueType": "string",
-          "label": "Image",
-          "name": "hidden-text",
-          "condition": { "===": [{"var" : "media-type"}, "image"] }
-      },
+        },   
       {
         "component": "reference",
         "valueType": "string",
