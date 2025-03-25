@@ -264,7 +264,7 @@
   
   {
    
-    "source": "/template.json"
+     "...": "./_template.json"
   },
 
   {
