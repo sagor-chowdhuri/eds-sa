@@ -266,12 +266,12 @@
     "fields": [
         {
             "component": "boolean",
-            "label": "Shall the text field be ?",
+            "label": "Shall the text  ?",
             "name": "reveal",
             "valueType": "boolean"
         },
         {
-            "component": "group",
+            "component": "container",
             "name": "conditional-fields",
             "condition": { "===": [{"var": "reveal"}, true] },
             "fields": [
