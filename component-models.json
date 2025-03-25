@@ -290,11 +290,11 @@
       },
       {
         "component": "text-input",
-        "valueType": "string",
-        "label": "Video",
+        "label": "Video Text text field",
         "name": "hidden-text",
+        "valueType": "string",
         "condition": { "===": [{"var" : "media-type"}, "video"] }
-    }
+      }
     ]
 },
 
