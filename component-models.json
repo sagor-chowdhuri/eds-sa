@@ -288,7 +288,8 @@
       {
         "component": "text",
         "name": "videoId",
-        "label": "videoId"
+        "label": "videoId",
+        "readOnly": true
       }
     ]
   },
