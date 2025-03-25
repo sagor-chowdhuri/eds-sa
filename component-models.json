@@ -262,54 +262,35 @@
     ]
   },
   {
-    "id": "hero",
+    "id": "demo-comp",
     "fields": [
-      {
-        "component": "select",
-        "name": "PrimarybackgroundType",
-        "label": "Primary Background Type",
-        "options": [
-          {
-            "name": "Image",
-            "value": "imageSlide"
-          },
-          {
-            "name": "Video",
-            "value": "videoSlide"
-          }
-        ],
-        "multi": false
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "label": "Video Details ID",
-        "name": "hidden-text",
-        "condition": {
-          "===": [
-            {
-              "var": "PrimarybackgroundType"
-            },
-            "videoSlide"
-          ]
-        }
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "Image",
-        "label": "Image Path",
-        "condition": {
-          "===": [
-            {
-              "var": "PrimarybackgroundType"
-            },
-            "imageSlide"
-          ]
-        }
+        {
+            "component": "select",
+            "label": "Select Type",
+            "name": "media-type",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "Image",
+                "value": "imageSlide"
+              },
+              {
+                "name": "Video",
+                "value": "videoSlide"
+              }
+            ],
+            "multi": false
+        },
+        {
+          "component": "text",
+          "label": "Hidden text field",
+          "name": "hidden-text",
+          "valueType": "string",
+          "condition": { "===": [{"var" : "media-type"}, "image"] }
       }
     ]
-  },
+},
+
   {
     "id": "video",
     "fields": [
