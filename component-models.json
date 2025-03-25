@@ -67,8 +67,7 @@
       {
         "component": "text",
         "name": "linkText",
-        "label": "Text",
-        "hidden": true
+        "label": "Text"
       },
       {
         "component": "text",
