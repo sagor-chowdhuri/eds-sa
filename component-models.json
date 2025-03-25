@@ -266,7 +266,7 @@
     "fields": [
         {
             "component": "boolean",
-            "label": "Shall the text field be revealed?",
+            "label": "Shall the text field be ?",
             "name": "reveal",
             "valueType": "boolean"
         },
