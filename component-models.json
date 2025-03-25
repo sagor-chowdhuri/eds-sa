@@ -289,12 +289,12 @@
           "condition": { "===": [{"var" : "media-type"}, "image"] }
       },
       {
-        "component": "text-input",
-        "label": "Video Text text field",
-        "name": "hidden-text",
+        "component": "reference",
         "valueType": "string",
+        "label": "Image1",
+        "name": "hidden-text",
         "condition": { "===": [{"var" : "media-type"}, "video"] }
-      }
+    }
     ]
 },
 
