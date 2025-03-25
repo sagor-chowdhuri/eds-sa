@@ -286,7 +286,7 @@
     "condition": {
       "===": [{"var": "reveal"}, true]
     }
-  }
+  },
   
 
   {
