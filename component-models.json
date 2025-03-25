@@ -271,7 +271,7 @@
             "valueType": "string",
             "options": [
               {
-                "name": "image",
+                "name": "Image",
                 "value": "image"
               },
               {
@@ -287,7 +287,14 @@
           "label": "Image",
           "name": "hidden-text",
           "condition": { "===": [{"var" : "media-type"}, "image"] }
-      }
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "label": "Image",
+        "name": "hidden-text",
+        "condition": { "===": [{"var" : "media-type"}, "video"] }
+    }
     ]
 },
 
