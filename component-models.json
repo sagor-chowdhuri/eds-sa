@@ -264,52 +264,66 @@
   {
     "id": "demo-comp",
     "fields": [
-        {
-            "component": "select",
-            "name": "PrimarybackgroundType",
-            "label": "Primary Background Type",
-            "options": [
-              {
-                "name": "Image",
-                "value": "imageSlide"
-              },
-              {
-                "name": "Video",
-                "value": "videoSlide"
-              }
-            ],
-            "multi": false
-        },  
+      {
+        "component": "select",
+        "name": "PrimarybackgroundType",
+        "label": "Primary Background Type",
+        "options": [
+          {
+            "name": "Image",
+            "value": "imageSlide"
+          },
+          {
+            "name": "Video",
+            "value": "videoSlide"
+          }
+        ],
+        "multi": false
+      },
       {
         "component": "text",
         "valueType": "string",
         "label": "Video Details",
         "name": "hidden-text",
-        "condition": { "===": [{"var" : "PrimarybackgroundType"}, "videoSlide"] }
-    },
-    {
-      "component": "reference",
+        "condition": {
+          "===": [
+            {
+              "var": "PrimarybackgroundType"
+            },
+            "videoSlide"
+          ]
+        }
+      },
+      {
+        "component": "reference",
         "valueType": "string",
         "name": "Image",
         "label": "Image Details",
-        "condition": { "===": [{"var" : "PrimarybackgroundType"}, "imageSlide"] }
-  },  {
-    "component": "richtext",
-    "name": "text",
-    "value": "",
-    "label": "Text",
-    "valueType": "string"
-  },
-  {
-    "component": "richtext",
-    "name": "description",
-    "value": "",
-    "label": "Description",
-    "valueType": "string"
-  }
+        "condition": {
+          "===": [
+            {
+              "var": "PrimarybackgroundType"
+            },
+            "imageSlide"
+          ]
+        }
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      }
     ]
-},
-
+  },
   {
     "id": "video",
     "fields": [
