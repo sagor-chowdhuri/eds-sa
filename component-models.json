@@ -287,7 +287,14 @@
         "label": "Image1",
         "name": "hidden-text",
         "condition": { "===": [{"var" : "media-type"}, "video"] }
-    }
+    },
+    {
+      "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+      "condition": { "===": [{"var" : "media-type"}, "image"] }
+  }
     ]
 },
 
