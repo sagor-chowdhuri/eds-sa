@@ -273,13 +273,6 @@
                 { "label": "Image", "value": "image" },
                 { "label": "Video", "value": "video" }
             ]
-        },
-        {
-            "component": "text-input",
-            "label": "Hidden text field",
-            "name": "hidden-text",
-            "valueType": "string",
-            "condition": { "===": [{"var" : "media-type"}, "image"] }
         }
     ]
 },
