@@ -268,27 +268,9 @@
         "component": "boolean",
         "label": "Shall the text field be?",
         "name": "reveal",
-        "valueType": "boolean"
-      },
-      {
-        "component": "container",
-        "condition": { "===": [{"var": "reveal"}, true] },
-        "fields": [
-          {
-            "component": "text-input",
-            "label": "Hidden text field",
-            "name": "hidden-text",
-            "valueType": "string"
-          },
-          {
-            "component": "reference",
-            "valueType": "string",
-            "name": "image",
-            "label": "Image"
-          }
-        ]
-      }
-    ]
+        "valueType": "boolean",
+        "multi": true
+      }]
   },
   {
     "id": "video",
