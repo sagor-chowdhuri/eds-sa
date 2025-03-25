@@ -263,42 +263,22 @@
   },
   {
     "id": "demo-comp",
-    "fields": [ 
+    "fields": [
       {
-        "component": "select",
-        "name": "boxSelector",
-        "label": "Title Type",
-        "options": [
-          {
-            "name": "scenesevenurl",
-            "value": "scenesevenurl"
-          },
-          {
-            "name": "kalturaId",
-            "value": "kalturaId"
-          }
-        ]
+        "component": "boolean",
+        "label": "Shall the text field be revealed?",
+        "name": "reveal",
+        "valueType": "boolean"
       },
       {
-        "component": "reference",
-        "name": "image",
-        "label": "Images",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "name": "videoId",
-        "label": "videoId",
-        "required": true,
-        "validation": {
-        "minLength": 2,
-        "maxLength": 5,
-        "regExp": "^foo:.*",
-        "customErrorMsg": "Why don't you make like a tree and get outta here?"
-      }
+        "component": "text-input",
+        "label": "Hidden text field",
+        "name": "hidden-text",
+        "valueType": "string",
+        "condition": { "===": [{"var" : "reveal"}, true] }
       }
     ]
-  },
+ },
   {
     "id": "video",
     "fields": [
