@@ -282,7 +282,7 @@
             "multi": false
         },
         {
-          "component": "text",
+          "component": "reference",
           "valueType": "string",
           "label": "Image",
           "name": "hidden-text",
@@ -291,7 +291,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "label": "Image",
+        "label": "Video",
         "name": "hidden-text",
         "condition": { "===": [{"var" : "media-type"}, "video"] }
     }
