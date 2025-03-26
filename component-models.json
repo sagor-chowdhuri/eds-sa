@@ -300,16 +300,10 @@
       },
       {
         "component": "container",
-        "label": "Slide details12",
+        "label": "Slide details",
         "name": "SlideDetails2",
         "valueType": "string",
-        "condition": {
-          "===": [
-            {
-              "var": "cardsCount"
-            },
-            "two"
-          ]
+        "condition": {  "===": [ { "var": "cardsCount" },"two"]
         },
         "fields": [
           {
@@ -341,13 +335,7 @@
                 "name": "carousalImage1",
                 "valueType": "string",
                 "collapsible": true,
-                "condition": {
-                    "===": [
-                    {
-                    "var": "backgroundType1"
-                    },
-                      "imageSlide"
-                  ]
+                "condition": { "===": [ { "var": "backgroundType1" }, "imageSlide"]
                 },
                 "fields": [
                   {
@@ -368,13 +356,7 @@
                 "name": "carousalVideo1",
                 "valueType": "string",
                 "collapsible": true,
-                "condition": {
-                    "===": [
-                    {
-                    "var": "backgroundType1"
-                    },
-                      "videoSlide"
-                  ]
+                "condition": {  "===": [  { "var": "backgroundType1" },"videoSlide"]
                 },
                 "fields": [
                   {
@@ -535,13 +517,7 @@
                 "name": "carousalImage2",
                 "valueType": "string",
                 "collapsible": true,
-                "condition": {
-                    "===": [
-                    {
-                    "var": "backgroundType2"
-                    },
-                      "imageSlide"
-                  ]
+                "condition": { "===": [ { "var": "backgroundType2"},"imageSlide"]
                 },
                 "fields": [
                   {
@@ -563,20 +539,13 @@
                 "name": "carousalVideo2",
                 "valueType": "string",
                 "collapsible": true,
-                "condition": {
-                    "===": [
-                    {
-                    "var": "backgroundType2"
-                    },
-                      "videoSlide"
-                  ]
+                "condition": {"===": [{"var": "backgroundType2"},"videoSlide"]
                 },
                 "fields": [
                   {
                     "component": "text",
                     "name": "videoId2",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -584,13 +553,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle2",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle2",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -711,13 +678,7 @@
         "label": "Slide details",
         "name": "SlideDetails3",
         "valueType": "string",
-        "condition": {
-          "===": [
-            {
-              "var": "cardsCount"
-            },
-            "three"
-          ]
+        "condition": { "===": [ { "var": "cardsCount"},"three"]
         },
         "fields": [
           {
@@ -749,19 +710,14 @@
                 "name": "carousalImage1",
                 "valueType": "string",
                 "collapsible": true,
-                "condition": {
-                    "===": [
-                    {
-                    "var": "backgroundType1"
-                    },
-                      "imageSlide"
-                  ]
+                "condition": {"===": [{"var": "backgroundType1"},"imageSlide"]
                 },
                 "fields": [
                   {
                     "component": "reference",
                     "name": "image1",
-                    "label": "Image"                  },
+                    "label": "Image"  
+                  },
                   {
                     "component": "text",
                     "name": "imageAlt1",
@@ -942,13 +898,7 @@
                 "name": "carousalImage2",
                 "valueType": "string",
                 "collapsible": true,
-                "condition": {
-                    "===": [
-                    {
-                    "var": "backgroundType2"
-                    },
-                      "imageSlide"
-                  ]
+                "condition": {"===": [ {"var": "backgroundType2"},"imageSlide"]
                 },
                 "fields": [
                   {
