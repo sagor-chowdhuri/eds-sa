@@ -214,19 +214,31 @@
     "id": "demo-comp",
     "fields": [
       {
-        "component": "text",
+        "component": "imageBlocks",
         "name": "link",
-        "label": "Link"
-      },
-      {
-        "component": "reference",
-        "name": "linkText",
-        "label": "Text"
-      }
-        ]
+        "label": "image Blocks",
+        "type" : "array",
+        "field" : {
+          "type" : "object",
+          "fields" : [
+            {
+              "name": "reference",
+              "label": "image",
+              "component": "reference"
+
+            },
+            {
+              "name" : "image",
+              "label" : "alt",
+              "component" : "text"
+            }
+          ]
+        }
+      }]
+    }  
       
     
-  },
+  ,
   {
     "id": "card",
     "fields": [
