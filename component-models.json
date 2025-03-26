@@ -212,7 +212,6 @@
   },
   {
     "id": "demo-comp",
-    "multi": true,
     "fields": [
       {
         "component": "tab",
@@ -224,23 +223,6 @@
         "component": "text-input",
         "label": "Text 123",
         "name": "text1",
-        "valueType": "string"
-      },
-      {
-        "component": "reference",
-        "label": "Text 2",
-        "name": "somethinf",
-        "valueType": "string"
-      },
-      {
-        "component": "tab",
-        "label": "Tab 2",
-        "name": "tab2"
-      },
-      {
-        "component": "text-input",
-        "label": "Text 2",
-        "name": "text2",
         "valueType": "string"
       }
     ]
