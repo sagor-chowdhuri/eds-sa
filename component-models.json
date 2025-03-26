@@ -302,6 +302,7 @@
                 "component": "reference",
                 "name": "image",
                 "label": "Image",
+                "required": true,
                 "description": "Upload video for the Primary Hero"
               },
               {
@@ -329,6 +330,7 @@
                 "component": "text",
                 "name": "videoId",
                 "label": "Background Video",
+                "required": true,
                 "description": "Upload video for the Primary Hero"
               }
             ]
