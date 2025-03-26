@@ -218,7 +218,6 @@
         "name": "name",
         "label": "Section Name",
         "description": "The label shown for this section in the Content 123",
-        "multi": true,
         "items": [{
           "component": "text",
           "name": "imageAltText",
