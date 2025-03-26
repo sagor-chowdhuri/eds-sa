@@ -4346,7 +4346,6 @@
         "label": "Card details",
         "name": "cardDetails2",
         "valueType": "string",
-        "collapsible": true,
         "condition": {
           "===": [
             {
