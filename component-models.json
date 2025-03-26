@@ -303,7 +303,7 @@
                 "name": "image",
                 "label": "Image",
                 "required": true,
-                "description": "Upload video for the Primary Hero"
+                "description": "Upload image for the Primary Hero"
               },
               {
                 "component": "text",
