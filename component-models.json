@@ -312,7 +312,7 @@
         "name": "text",
         "required": true,
         "description": "Enter main heading for the Primary Hero",
-        "label": "Text",
+        "label": "Title",
         "valueType": "string"
       },
       {
