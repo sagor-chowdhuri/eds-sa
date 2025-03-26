@@ -230,7 +230,7 @@
         "label": "Text 2",
         "name": "text1",
         "valueType": "string"
-      }
+      },
       {
         "component": "tab",
         "label": "Tab 2",
