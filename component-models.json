@@ -263,18 +263,19 @@
   },
   {
     "id": "demo-comp",
+    "multi": true,
     "fields": [
       {
         "component": "reference",
         "name": "imageAlt1",
-        "label": "Alt",
-        "multi":true
+        "label": "Alt"
+      
       },
       {
         "component": "text",
         "valueType": "string",
-        "label": "title1",
-        "multi":true
+        "label": "title1"
+        
       }
   ]
   },
