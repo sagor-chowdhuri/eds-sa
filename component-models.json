@@ -308,7 +308,7 @@
         }
       },
       {
-        "component": "richtext",
+        "component": "text",
         "name": "text",
         "required": true,
         "description": "Enter main heading for the Primary Hero",
