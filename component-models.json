@@ -211,6 +211,43 @@
     ]
   },
   {
+    "id": "demo-comp",
+    "fields": [
+      {
+        "component": "container",
+        "label": "primary-hero",
+        "name": "hero banner",
+        "valueType": "string",
+        "multi": true,
+        "items": [
+          {
+            "component": "select",
+            "valueType": "string",
+            "name": "PrimarybackgroundType",
+            "label": "Primary Background Type1",
+            "options": [
+              {
+                "name": "Image",
+                "value": "imageSlide"
+              },
+              {
+                "name": "Video",
+                "value": "videoSlide"
+              }
+            ]
+          } ,
+          {
+            "component":"text",
+            "name": "text",
+            "required": true,
+            "label": "Title",
+            "valueType": "string"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
