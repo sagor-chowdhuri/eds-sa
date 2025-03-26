@@ -162,14 +162,12 @@
                 "component": "reference",
                 "name": "image",
                 "label": "Image",
-                "required" : true,
-                "multi": true
+                "required" : true
               },
               {
                 "component": "text",
                 "name": "imageAlt",
-                "label": "Alt Text",
-                "multi": true
+                "label": "Alt Text"
               }
             ]
           },
