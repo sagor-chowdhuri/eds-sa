@@ -296,7 +296,7 @@
       {
         "component": "tab",
         "label": "Slide Details Tab",
-        "name": "Slide Details Tab"
+        "name": "SlideDetails"
       },
       {
         "component": "container",
@@ -4365,8 +4365,8 @@
       },
       {
         "component": "tab",
-        "label": "Tab 1",
-        "name": "tab2"
+        "label": "Card Details Tab",
+        "name": "Card Details"
       },
       {
         "component": "container",
