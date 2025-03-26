@@ -265,6 +265,7 @@
         "component": "select",
         "name": "PrimarybackgroundType",
         "label": "Primary Background Type",
+        "required": true,
         "options": [
           {
             "name": "Image",
@@ -274,14 +275,13 @@
             "name": "Video",
             "value": "videoSlide"
           }
-        ],
-        "multi": false
+        ]
       },
       {
         "component": "text",
         "valueType": "string",
-        "label": "Video Details ID",
-        "name": "hidden-text",
+        "label": "Background Video",
+        "name": "BackgroundVideo",
         "required": true,
         "condition": {
           "===": [
@@ -295,8 +295,8 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "Image",
-        "label": "Image Path",
+        "name": "BackgroundImage",
+        "label": "Background Image",
         "required": true,
         "condition": {
           "===": [
@@ -308,18 +308,33 @@
         }
       },
       {
-        "component": "richtext",
+        "component": "text",
+        "valueType": "string",
+        "name": "Image Alt",
+        "label": "Image Alt Text",
+        "condition": {
+          "===": [
+            {
+              "var": "PrimarybackgroundType"
+            },
+            "imageSlide"
+          ]
+        }
+      },
+      {
+        "component": "text",
         "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "label": "Title",
+        "required": true,
+        "valueType": "string",
+        "description": "Enter main heading for the Primary Hero"
       },
       {
         "component": "richtext",
         "name": "description",
-        "value": "",
         "label": "Description",
-        "valueType": "string"
+        "valueType": "string",
+        "description": "Enter description for additional context"
       }
     ]
   },
