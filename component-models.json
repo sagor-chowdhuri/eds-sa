@@ -260,95 +260,28 @@
   },
   {
     "id": "demo-comp",
-    "fields": [
+    "fields": [ 
       {
-        "component": "container",
-        "label": "primary-hero",
-        "name": "hero banner",
+        "component": "reference",
         "valueType": "string",
-        "fields": [
-          {
-            "component": "select",
-            "valueType": "string",
-            "name": "PrimarybackgroundType",
-            "label": "Primary Background Type",
-            "options": [
-              {
-                "name": "Image",
-                "value": "imageSlide"
-              },
-              {
-                "name": "Video",
-                "value": "videoSlide"
-              }
-            ],
-            "multi": false
-          },
-          {
-            "component": "container",
-            "label": "Image Details",
-            "name": "HeroImage",
-            "valueType": "string",
-            "condition": {
-              "===": [
-                {
-                  "var": "PrimarybackgroundType"
-                },
-                "imageSlide"
-              ]
-            },
-            "fields": [
-              {
-                "component": "reference",
-                "name": "image",
-                "label": "Image",
-                "required" : true,
-                "multi": false
-              },
-              {
-                "component": "text",
-                "name": "imageAlt",
-                "label": "Alt Text"
-              }
-            ]
-          },
-          {
-            "component": "container",
-            "label": "Video Details",
-            "name": "HeroVideo",
-            "valueType": "string",
-            "condition": {
-              "===": [
-                {
-                  "var": "PrimarybackgroundType"
-                },
-                "videoSlide"
-              ]
-            },
-            "fields": [
-              {
-                "component": "text",
-                "name": "videoId",
-                "label": "Enter Video ID12345",
-                "required": true
-              }
-            ]
-          }
-        ]
+        "label": "Primary Overlay Icon",
+        "name": "icon",
+        "required": true,
+        "description": "Upload icon for Primary Hero with overlay"
       },
       {
         "component": "text",
         "name": "text",
-        "required": true,
         "label": "Title",
-        "valueType": "string"
+        "valueType": "string",
+        "description": "Enter Title for Primary Hero with overlay"
       },
       {
         "component": "richtext",
         "name": "description",
-        "required": true,
         "label": "Description",
-        "valueType": "string"
+        "valueType": "string",
+        "description": "Enter description for Primary Hero overlay"
       }
     ]
   },
