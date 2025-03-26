@@ -262,7 +262,7 @@
     ]
   },
   {
-    "id": "primary-hero",
+    "id": "demo-comp",
     "fields": [ 
       {
         "component": "text",
