@@ -189,8 +189,7 @@
                 "name": "Video",
                 "value": "videoSlide"
               }
-            ],
-            "multi": false
+            ]
           },
           {
             "component": "container",
@@ -238,8 +237,7 @@
               {
                 "component": "text",
                 "name": "videoId",
-                "label": "Enter Video ID",
-                "value": ""
+                "label": "Enter Video ID"
               }
             ]
           }
@@ -290,8 +288,7 @@
             "name": "6",
             "value": "six"
           }
-        ],
-        "multi": false
+        ]
       },
       {
         "component": "tab",
@@ -334,7 +331,6 @@
                 "label": "Image Details",
                 "name": "carousalImage1",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": { "===": [ { "var": "backgroundType1" }, "imageSlide"]
                 },
                 "fields": [
@@ -516,7 +512,6 @@
                 "label": "Image Details",
                 "name": "carousalImage2",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": { "===": [ { "var": "backgroundType2"},"imageSlide"]
                 },
                 "fields": [
@@ -709,7 +704,6 @@
                 "label": "Image Details",
                 "name": "carousalImage1",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {"===": [{"var": "backgroundType1"},"imageSlide"]
                 },
                 "fields": [
@@ -897,7 +891,6 @@
                 "label": "Image Details",
                 "name": "carousalImage2",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {"===": [ {"var": "backgroundType2"},"imageSlide"]
                 },
                 "fields": [
@@ -1086,14 +1079,7 @@
                 "label": "Image Details",
                 "name": "carousalImage3",
                 "valueType": "string",
-                "collapsible": true,
-                "condition": {
-                    "===": [
-                    {
-                    "var": "backgroundType3"
-                    },
-                      "imageSlide"
-                  ]
+                "condition": {"===": [{ "var": "backgroundType3"},"imageSlide"]
                 },
                 "fields": [
                   {
@@ -1297,14 +1283,7 @@
                 "label": "Image Details",
                 "name": "carousalImage1",
                 "valueType": "string",
-                "collapsible": true,
-                "condition": {
-                    "===": [
-                    {
-                    "var": "backgroundType1"
-                    },
-                      "imageSlide"
-                  ]
+                "condition": { "===": [ {"var": "backgroundType1"},"imageSlide"]
                 },
                 "fields": [
                   {
@@ -1494,14 +1473,7 @@
                 "label": "Image Details",
                 "name": "carousalImage2",
                 "valueType": "string",
-                "collapsible": true,
-                "condition": {
-                    "===": [
-                    {
-                    "var": "backgroundType2"
-                    },
-                      "imageSlide"
-                  ]
+                "condition": {"===": [{"var": "backgroundType2"},"imageSlide"]
                 },
                 "fields": [
                   {
@@ -1689,14 +1661,7 @@
                 "label": "Image Details",
                 "name": "carousalImage3",
                 "valueType": "string",
-                "collapsible": true,
-                "condition": {
-                    "===": [
-                    {
-                    "var": "backgroundType3"
-                    },
-                      "imageSlide"
-                  ]
+                "condition": {"===": [{"var": "backgroundType3"},"imageSlide"]
                 },
                 "fields": [
                   {
@@ -1884,7 +1849,6 @@
                 "label": "Image Details",
                 "name": "carousalImage4",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
@@ -2095,7 +2059,6 @@
                 "label": "Image Details",
                 "name": "carousalImage1",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
@@ -2290,7 +2253,6 @@
                 "label": "Image Details",
                 "name": "carousalImage2",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
@@ -2485,7 +2447,6 @@
                 "label": "Image Details",
                 "name": "carousalImage3",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
@@ -2680,7 +2641,6 @@
                 "label": "Image Details",
                 "name": "carousalImage4",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
@@ -2876,7 +2836,6 @@
                 "label": "Image Details",
                 "name": "carousalImage5",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
