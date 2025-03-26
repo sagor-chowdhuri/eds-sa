@@ -214,21 +214,27 @@
     "id": "demo-comp",
    "fields": [
       {
-        "component": "text",
+        "component": "reference",
         "name": "name",
         "label": "Section Name",
-        "description": "The label shown for this section in the Content Tree"
+        "description": "The label shown for this section in the Content Tree",
+        "multi": true,
+        "items": [{
+          "component": "text",
+          "name": "imageAltText",
+          "label": "Alt Text"
+        }]
       },
       {
-        "component": "multiselect",
-        "name": "style",
-        "label": "Style",
-        "options": [
-          {
-            "name": "Highlight",
-            "value": "highlight"
-          }
-        ]
+        "component": "reference",
+        "name": "imageReference",
+        "label": "Image",
+        "multi":true,
+        "items": [{
+          "component": "text",
+          "name": "someting",
+          "label": "someting Text"
+        }]
       }
     ]
   },
