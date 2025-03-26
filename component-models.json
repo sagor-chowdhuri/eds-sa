@@ -259,66 +259,92 @@
     ]
   },
   {
-    "id": "demo-comp",
+    "id": "hero",
     "fields": [
       {
-        "component": "select",
-        "name": "PrimarybackgroundType",
-        "label": "Primary Background Type",
-        "options": [
+        "component": "container",
+        "label": "primary-hero",
+        "name": "hero banner",
+        "valueType": "string",
+        "fields": [
           {
-            "name": "Image",
-            "value": "imageSlide"
+            "component": "select",
+            "valueType": "string",
+            "name": "PrimarybackgroundType",
+            "label": "Primary Background Type",
+            "options": [
+              {
+                "name": "Image",
+                "value": "imageSlide"
+              },
+              {
+                "name": "Video",
+                "value": "videoSlide"
+              }
+            ],
+            "multi": false
           },
           {
-            "name": "Video",
-            "value": "videoSlide"
+            "component": "container",
+            "label": "Image Details",
+            "name": "HeroImage",
+            "valueType": "string",
+            "condition": {
+              "===": [
+                {
+                  "var": "PrimarybackgroundType"
+                },
+                "imageSlide"
+              ]
+            },
+            "fields": [
+              {
+                "component": "reference",
+                "name": "image",
+                "label": "Image",
+                "multi": false
+              },
+              {
+                "component": "text",
+                "name": "imageAlt",
+                "label": "Alt Text"
+              }
+            ]
+          },
+          {
+            "component": "container",
+            "label": "Video Details",
+            "name": "HeroVideo",
+            "valueType": "string"
+            "condition": {
+              "===": [
+                {
+                  "var": "PrimarybackgroundType"
+                },
+                "videoSlide"
+              ]
+            },
+            "fields": [
+              {
+                "component": "text",
+                "name": "videoId",
+                "label": "Enter Video ID"
+              }
+            ]
           }
         ]
       },
       {
         "component": "text",
-        "valueType": "string",
-        "label": "Video Details ID",
-        "name": "Video",
-        "required": true,
-        "description": "Upload video for the Primary Hero",
-        "condition": {
-          "===": [
-            {
-              "var": "PrimarybackgroundType"
-            },
-            "videoSlide"
-          ]
-        }
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "Image",
-        "label": "Image Path",
-        "required": true,
-        "condition": {
-          "===": [
-            {
-              "var": "PrimarybackgroundType"
-            },
-            "imageSlide"
-          ]
-        }
-      },
-      {
-        "component": "text",
         "name": "text",
         "required": true,
-        "description": "Enter main heading for the Primary Hero",
         "label": "Title",
         "valueType": "string"
       },
       {
         "component": "richtext",
         "name": "description",
-        "description": "Enter description for additional context",
+        "required": true,
         "label": "Description",
         "valueType": "string"
       }
