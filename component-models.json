@@ -331,7 +331,6 @@
         "label": "Title",
         "required": true,
         "valueType": "string",
-        "multi": true,
         "description": "Enter main heading for the Primary Hero"
       },
       {
@@ -339,7 +338,6 @@
         "name": "description",
         "label": "Description",
         "valueType": "string",
-        "multi": true,
         "description": "Enter description for additional context"
       }
     ]
