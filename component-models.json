@@ -265,7 +265,7 @@
         "component": "select",
         "name": "PrimarybackgroundType",
         "label": "Primary Background Type",
-        "description":"Selct Background Type for Primary Hero",
+        "description":"Selct Background Type Primary Hero",
         "required": true,
         "options": [
           {
@@ -299,7 +299,7 @@
         "valueType": "string",
         "name": "BackgroundImage",
         "label": "Background Image",
-        "description": "Add Alt Text for Image Primary Hero",
+        "description": "Upload video for the Primary Hero",
         "required": true,
         "condition": {
           "===": [
@@ -315,6 +315,7 @@
         "valueType": "string",
         "name": "Image Alt",
         "label": "Image Alt Text",
+        "description": "Add Alt Text for Image Primary Hero",
         "condition": {
           "===": [
             {
