@@ -17,11 +17,12 @@
       "columns",
       "fragment",
       "demo-comp",
-      "video"
+      "video",
+      "card"
     ]
   },
   {
-    "id": "cards",
+    "id": "hero",
     "components": [
       "card"
     ]
