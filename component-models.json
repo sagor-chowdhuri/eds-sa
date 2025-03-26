@@ -169,83 +169,92 @@
     "id": "demo-comp",
     "fields": [
       {
-        "component": "select",
-        "name": "PrimarybackgroundType",
-        "label": "Primary Background Type",
-        "description":"Selct Background Type Primary Hero",
-        "required": true,
-        "options": [
+        "component": "container",
+        "label": "primary-hero",
+        "name": "hero banner",
+        "valueType": "string",
+        "collapsible": true,
+        "fields": [
           {
-            "name": "Image",
-            "value": "imageSlide"
+            "component": "select",
+            "valueType": "string",
+            "name": "PrimarybackgroundType",
+            "label": "Primary Background Type",
+            "options": [
+              {
+                "name": "Image",
+                "value": "imageSlide"
+              },
+              {
+                "name": "Video",
+                "value": "videoSlide"
+              }
+            ]
           },
           {
-            "name": "Video",
-            "value": "videoSlide"
+            "component": "container",
+            "label": "Image Details",
+            "name": "HeroImage",
+            "valueType": "string",
+            "condition": {
+              "===": [
+                {
+                  "var": "PrimarybackgroundType"
+                },
+                "imageSlide"
+              ]
+            },
+            "fields": [
+              {
+                "component": "reference",
+                "name": "image",
+                "label": "Image",
+                "required": true
+              },
+              {
+                "component": "text",
+                "name": "imageAlt",
+                "label": "Alt Text"
+              }
+            ]
+          },
+          {
+            "component": "container",
+            "label": "Video Details",
+            "name": "HeroVideo",
+            "valueType": "string",
+            "collapsible": true,
+            "condition": {
+              "===": [
+                {
+                  "var": "PrimarybackgroundType"
+                },
+                "videoSlide"
+              ]
+            },
+            "fields": [
+              {
+                "component": "text",
+                "name": "videoId",
+                "label": "Enter Video ID"
+              }
+            ]
           }
         ]
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "label": "Background Video",
-        "name": "BackgroundVideo",
-        "description": "Upload video for the Primary Hero",
-        "required": true,
-        "condition": {
-          "===": [
-            {
-              "var": "PrimarybackgroundType"
-            },
-            "videoSlide"
-          ]
-        }
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "BackgroundImage",
-        "label": "Background Image",
-        "description": "Upload video for the Primary Hero",
-        "required": true,
-        "condition": {
-          "===": [
-            {
-              "var": "PrimarybackgroundType"
-            },
-            "imageSlide"
-          ]
-        }
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "Image Alt",
-        "label": "Image Alt Text",
-        "description": "Add Alt Text for Image Primary Hero",
-        "condition": {
-          "===": [
-            {
-              "var": "PrimarybackgroundType"
-            },
-            "imageSlide"
-          ]
-        }
-      },
-      {
-        "component": "text",
+        "component": "richtext",
         "name": "text",
-        "label": "Title",
-        "required": true,
-        "valueType": "string",
-        "description": "Enter main heading for the Primary Hero"
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       },
       {
         "component": "richtext",
         "name": "description",
+        "value": "",
         "label": "Description",
-        "valueType": "string",
-        "description": "Enter description for additional context"
+        "valueType": "string"
       }
     ]
   },
