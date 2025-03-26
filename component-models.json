@@ -173,7 +173,6 @@
         "label": "primary-hero",
         "name": "hero banner",
         "valueType": "string",
-        "collapsible": true,
         "fields": [
           {
             "component": "select",
@@ -189,7 +188,8 @@
                 "name": "Video",
                 "value": "videoSlide"
               }
-            ]
+            ],
+            "multi": false
           },
           {
             "component": "container",
@@ -209,7 +209,8 @@
                 "component": "reference",
                 "name": "image",
                 "label": "Image",
-                "required": true
+                "required" : true,
+                "multi": false
               },
               {
                 "component": "text",
@@ -223,7 +224,6 @@
             "label": "Video Details",
             "name": "HeroVideo",
             "valueType": "string",
-            "collapsible": true,
             "condition": {
               "===": [
                 {
@@ -236,23 +236,24 @@
               {
                 "component": "text",
                 "name": "videoId",
-                "label": "Enter Video ID"
+                "label": "Enter Video ID12345",
+                "required": true
               }
             ]
           }
         ]
       },
       {
-        "component": "richtext",
+        "component": "text",
         "name": "text",
-        "value": "",
-        "label": "Text",
+        "required": true,
+        "label": "Title",
         "valueType": "string"
       },
       {
         "component": "richtext",
         "name": "description",
-        "value": "",
+        "required": true,
         "label": "Description",
         "valueType": "string"
       }
