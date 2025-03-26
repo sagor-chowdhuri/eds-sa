@@ -4280,12 +4280,12 @@
       },
       {
         "component": "tab",
-        "label": "Card Details Tab",
+        "label": "Card Details Tab1",
         "name": "Card Details"
       },
       {
         "component": "container",
-        "label": "Card details",
+        "label": "Card details1",
         "name": "cardDetails2",
         "valueType": "string",
         "collapsible": false,
