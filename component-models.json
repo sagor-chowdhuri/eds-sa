@@ -263,8 +263,8 @@
     "fields": [
       {
         "component": "container",
-        "label": "primary-hero",
-        "name": "hero banner",
+        "label": "Primary Hero",
+        "name": "primary hero",
         "valueType": "string",
         "fields": [
           {
@@ -272,6 +272,7 @@
             "valueType": "string",
             "name": "PrimarybackgroundType",
             "label": "Primary Background Type",
+            "required": true,
             "options": [
               {
                 "name": "Image",
@@ -285,7 +286,7 @@
           },
           {
             "component": "container",
-            "label": "Image Details",
+            "label": "HeroImage",
             "name": "HeroImage",
             "valueType": "string",
             "condition": {
