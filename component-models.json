@@ -222,7 +222,7 @@
       },
       {
         "component": "text-input",
-        "label": "Text 1",
+        "label": "Text 123",
         "name": "text1",
         "valueType": "string"
       },
