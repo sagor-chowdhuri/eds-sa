@@ -154,8 +154,7 @@
                   "var": "PrimarybackgroundType"
                 },
                 "imageSlide"
-              ],
-              "multi": true
+              ]
             },
             "fields": [
               {
