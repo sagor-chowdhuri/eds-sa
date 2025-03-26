@@ -300,7 +300,7 @@
       },
       {
         "component": "container",
-        "label": "Slide details",
+        "label": "Slide details12",
         "name": "SlideDetails2",
         "valueType": "string",
         "condition": {
@@ -4280,15 +4280,14 @@
       },
       {
         "component": "tab",
-        "label": "Card Details Tab1",
+        "label": "Card Details Tab",
         "name": "Card Details"
       },
       {
         "component": "container",
-        "label": "Card details1",
+        "label": "Card details",
         "name": "cardDetails2",
         "valueType": "string",
-        "collapsible": false,
         "condition": {
           "===": [
             {
