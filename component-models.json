@@ -274,15 +274,15 @@
             "name": "Video",
             "value": "videoSlide"
           }
-        ]
+        ],
+        "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
         "label": "Video Details ID",
-        "name": "Video",
+        "name": "hidden-text",
         "required": true,
-        "description": "Upload video for the Primary Hero",
         "condition": {
           "===": [
             {
@@ -308,17 +308,16 @@
         }
       },
       {
-        "component": "text",
+        "component": "richtext",
         "name": "text",
-        "required": true,
-        "description": "Enter main heading for the Primary Hero",
-        "label": "Title",
+        "value": "",
+        "label": "Text",
         "valueType": "string"
       },
       {
         "component": "richtext",
         "name": "description",
-        "description": "Enter description for additional context",
+        "value": "",
         "label": "Description",
         "valueType": "string"
       }
