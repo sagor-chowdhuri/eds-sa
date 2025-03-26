@@ -282,6 +282,7 @@
         "valueType": "string",
         "label": "Background Video",
         "name": "BackgroundVideo",
+        "description": "Upload video for the Primary Hero",
         "required": true,
         "condition": {
           "===": [
@@ -297,6 +298,7 @@
         "valueType": "string",
         "name": "BackgroundImage",
         "label": "Background Image",
+        "description": "Upload video for the Primary Hero",
         "required": true,
         "condition": {
           "===": [
