@@ -216,7 +216,8 @@
       {
         "component": "tab",
         "label": "Tab 1",
-        "name": "tab1"
+        "name": "tab1",
+        "multi": true
       },
       {
         "component": "text-input",
