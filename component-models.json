@@ -211,7 +211,7 @@
     ]
   },
   {
-    "id": "tab",
+    "id": "demo-comp",
     "fields": [
       {
         "component": "tab",
