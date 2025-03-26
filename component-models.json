@@ -212,35 +212,21 @@
   },
   {
     "id": "demo-comp",
-    "fields": [
+   "fields": [
       {
-        "component": "container",
-        "label": "primary-hero",
-        "name": "hero banner",
-        "valueType": "string",
-        "items": [
+        "component": "text",
+        "name": "name",
+        "label": "Section Name",
+        "description": "The label shown for this section in the Content Tree"
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
           {
-            "component": "select",
-            "valueType": "string",
-            "name": "PrimarybackgroundType",
-            "label": "Primary Background Type1",
-            "options": [
-              {
-                "name": "Image",
-                "value": "imageSlide"
-              },
-              {
-                "name": "Video",
-                "value": "videoSlide"
-              }
-            ]
-          } ,
-          {
-            "component":"text",
-            "name": "text",
-            "required": true,
-            "label": "Title",
-            "valueType": "string"
+            "name": "Highlight",
+            "value": "highlight"
           }
         ]
       }
