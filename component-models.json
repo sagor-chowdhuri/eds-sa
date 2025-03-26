@@ -295,8 +295,8 @@
       },
       {
         "component": "tab",
-        "label": "Tab 1",
-        "name": "tab1"
+        "label": "Slide Details Tab",
+        "name": "Slide Details Tab"
       },
       {
         "component": "container",
