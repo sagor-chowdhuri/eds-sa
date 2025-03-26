@@ -303,7 +303,6 @@
         "label": "Slide details",
         "name": "SlideDetails2",
         "valueType": "string",
-        "collapsible": true,
         "condition": {
           "===": [
             {
@@ -334,8 +333,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -383,8 +381,7 @@
                   {
                     "component": "text",
                     "name": "videoId1",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -392,13 +389,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle1",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle1",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -533,8 +528,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -749,8 +743,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -948,8 +941,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -1363,8 +1355,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -1562,8 +1553,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -1761,8 +1751,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -1960,8 +1949,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -2176,8 +2164,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -2375,8 +2362,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -2574,8 +2560,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -2773,8 +2758,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -2972,8 +2956,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -3188,8 +3171,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -3387,8 +3369,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -3586,8 +3567,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -3785,8 +3765,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -3984,8 +3963,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
@@ -4183,8 +4161,7 @@
                     "name": "Video",
                     "value": "videoSlide"
                   }
-                ],
-                "multi": false
+                ]
               },
               {
                 "component": "container",
