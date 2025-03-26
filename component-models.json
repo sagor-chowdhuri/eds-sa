@@ -218,7 +218,6 @@
         "label": "primary-hero",
         "name": "hero banner",
         "valueType": "string",
-        "multi": true,
         "items": [
           {
             "component": "select",
