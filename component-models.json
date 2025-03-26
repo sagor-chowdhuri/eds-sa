@@ -308,7 +308,6 @@
             "label": "Slide 1 contents",
             "name": "slide1",
             "valueType": "string",
-            "collapsible": true,
             "fields": [
               {
                 "component": "select",
@@ -3046,7 +3045,6 @@
                 "label": "Image Details",
                 "name": "carousalImage1",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
@@ -3240,7 +3238,6 @@
                 "label": "Image Details",
                 "name": "carousalImage2",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
@@ -3435,7 +3432,6 @@
                 "label": "Image Details",
                 "name": "carousalImage3",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
@@ -3630,7 +3626,6 @@
                 "label": "Image Details",
                 "name": "carousalImage4",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
@@ -3825,7 +3820,6 @@
                 "label": "Image Details",
                 "name": "carousalImage5",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
@@ -4019,7 +4013,6 @@
                 "label": "Image Details",
                 "name": "carousalImage6",
                 "valueType": "string",
-                "collapsible": true,
                 "condition": {
                     "===": [
                     {
