@@ -27,6 +27,12 @@
     ]
   },
   {
+    "id": "demo-comp",
+    "components": [
+      "card"
+    ]
+  },
+  {
     "id": "columns",
     "components": [
       "column"
