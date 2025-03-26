@@ -268,13 +268,13 @@
       {
         "component": "reference",
         "name": "imageAlt1",
-        "label": "Alt"
+        "label": "Alt123"
       
       },
       {
         "component": "text",
         "valueType": "string",
-        "label": "title1"
+        "label": "title1123"
         
       }
   ]
