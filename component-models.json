@@ -212,24 +212,20 @@
   },
   {
     "id": "demo-comp",
-   "fields": [
+    "fields": [
+      {
+        "component": "text",
+        "name": "link",
+        "label": "Link"
+      },
       {
         "component": "reference",
-        "name": "name",
-        "label": "Section Name",
-        "description": "The label shown for this section in the Content 123",
-        "fields": [{
-          "component": "text",
-          "name": "imageAltText",
-          "label": "Alt Text"
-        },
-        {
-          "component": "reference",
-          "name": "someting1",
-          "label": "someting Text12"
-        }]
+        "name": "linkText",
+        "label": "Text"
       }
-    ]
+        ]
+      
+    
   },
   {
     "id": "card",
