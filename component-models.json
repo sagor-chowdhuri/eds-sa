@@ -262,88 +262,58 @@
     "id": "demo-comp",
     "fields": [
       {
-        "component": "container",
-        "label": "Primary Hero",
-        "name": "primary hero",
-        "valueType": "string",
-        "fields": [
+        "component": "select",
+        "name": "PrimarybackgroundType",
+        "label": "Primary Background Type",
+        "options": [
           {
-            "component": "select",
-            "valueType": "string",
-            "name": "PrimarybackgroundType",
-            "label": "Primary Background Type",
-            "required": true,
-            "options": [
-              {
-                "name": "Image",
-                "value": "imageSlide"
-              },
-              {
-                "name": "Video",
-                "value": "videoSlide"
-              }
-            ]
+            "name": "Image",
+            "value": "imageSlide"
           },
           {
-            "component": "container",
-            "label": "HeroImage",
-            "name": "HeroImage",
-            "valueType": "string",
-            "condition": {
-              "===": [
-                {
-                  "var": "PrimarybackgroundType"
-                },
-                "imageSlide"
-              ]
-            },
-            "fields": [
-              {
-                "component": "reference",
-                "name": "image",
-                "label": "Image",
-                "required": true,
-                "description": "Upload image for the Primary Hero"
-              },
-              {
-                "component": "text",
-                "name": "imageAlt",
-                "label": "Alt Text"
-              }
-            ]
-          },
-          {
-            "component": "container",
-            "label": "Video Details",
-            "name": "HeroVideo",
-            "valueType": "string",
-            "condition": {
-              "===": [
-                {
-                  "var": "PrimarybackgroundType"
-                },
-                "videoSlide"
-              ]
-            },
-            "fields": [
-              {
-                "component": "text",
-                "name": "videoId",
-                "label": "Background Video",
-                "required": true,
-                "description": "Upload video for the Primary Hero"
-              }
-            ]
+            "name": "Video",
+            "value": "videoSlide"
           }
         ]
       },
       {
         "component": "text",
+        "valueType": "string",
+        "label": "Video Details ID",
+        "name": "Video",
+        "required": true,
+        "description": "Upload video for the Primary Hero",
+        "condition": {
+          "===": [
+            {
+              "var": "PrimarybackgroundType"
+            },
+            "videoSlide"
+          ]
+        }
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "Image",
+        "label": "Image Path",
+        "required": true,
+        "condition": {
+          "===": [
+            {
+              "var": "PrimarybackgroundType"
+            },
+            "imageSlide"
+          ]
+        }
+      },
+      {
+        "component": "text",
         "name": "text",
         "required": true,
+        "description": "Enter main heading for the Primary Hero",
         "label": "Title",
-        "valueType": "string",
-        "description": "Enter main heading for the Primary Hero"
+        "valueType": "string"
       },
       {
         "component": "richtext",
