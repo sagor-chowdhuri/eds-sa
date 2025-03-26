@@ -217,23 +217,17 @@
         "component": "reference",
         "name": "name",
         "label": "Section Name",
-        "description": "The label shown for this section in the Content Tree",
+        "description": "The label shown for this section in the Content 123",
         "multi": true,
         "items": [{
           "component": "text",
           "name": "imageAltText",
           "label": "Alt Text"
-        }]
-      },
-      {
-        "component": "reference",
-        "name": "imageReference",
-        "label": "Image",
-        "multi":true,
-        "items": [{
-          "component": "text",
-          "name": "someting",
-          "label": "someting Text"
+        },
+        {
+          "component": "reference",
+          "name": "someting1",
+          "label": "someting Text12"
         }]
       }
     ]
