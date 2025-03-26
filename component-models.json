@@ -317,6 +317,7 @@
             "label": "Slide 1 contents",
             "name": "slide1",
             "valueType": "string",
+            "collapsible": true,
             "fields": [
               {
                 "component": "select",
@@ -352,8 +353,7 @@
                   {
                     "component": "reference",
                     "name": "image1",
-                    "label": "Image",
-                    "multi": false
+                    "label": "Image"
                   },
                   {
                     "component": "text",
@@ -761,9 +761,7 @@
                   {
                     "component": "reference",
                     "name": "image1",
-                    "label": "Image",
-                    "multi": false
-                  },
+                    "label": "Image"                  },
                   {
                     "component": "text",
                     "name": "imageAlt1",
@@ -789,8 +787,7 @@
                   {
                     "component": "text",
                     "name": "videoId1",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -798,13 +795,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle1",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle1",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -987,8 +982,7 @@
                   {
                     "component": "text",
                     "name": "videoId2",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -996,13 +990,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle2",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle2",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -1092,8 +1084,7 @@
                         "value": "_blank"
                       },
                       {
-                        "name": "Same Tab",
-                        "value": ""
+                        "name": "Same Tab"
                       }
                     ]
                   },
@@ -1186,8 +1177,7 @@
                   {
                     "component": "text",
                     "name": "videoId3",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -1195,13 +1185,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle3",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle3",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -1415,7 +1403,6 @@
               {
                 "component": "richtext",
                 "name": "slideSubTitle1",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -1598,8 +1585,7 @@
                   {
                     "component": "text",
                     "name": "videoId2",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -1607,13 +1593,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle2",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle2",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -1796,8 +1780,7 @@
                   {
                     "component": "text",
                     "name": "videoId3",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -1805,13 +1788,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle3",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle3",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -1994,8 +1975,7 @@
                   {
                     "component": "text",
                     "name": "videoId4",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -2003,13 +1983,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle4",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle4",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -2208,8 +2186,7 @@
                   {
                     "component": "text",
                     "name": "videoId1",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -2217,13 +2194,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle1",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle1",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -2406,8 +2381,7 @@
                   {
                     "component": "text",
                     "name": "videoId2",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -2415,13 +2389,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle2",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle2",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -2604,8 +2576,7 @@
                   {
                     "component": "text",
                     "name": "videoId3",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -2613,13 +2584,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle3",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle3",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -2811,13 +2780,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle4",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle4",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -3000,8 +2967,7 @@
                   {
                     "component": "text",
                     "name": "videoId5",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -3009,13 +2975,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle5",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle5",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -3186,8 +3150,7 @@
                   {
                     "component": "reference",
                     "name": "image1",
-                    "label": "Image",
-                    "multi": false
+                    "label": "Image"
                   },
                   {
                     "component": "text",
@@ -3214,8 +3177,7 @@
                   {
                     "component": "text",
                     "name": "videoId1",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -3223,13 +3185,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle1",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle1",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -3412,8 +3372,7 @@
                   {
                     "component": "text",
                     "name": "videoId2",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -3421,13 +3380,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle2",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle2",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -3610,8 +3567,7 @@
                   {
                     "component": "text",
                     "name": "videoId3",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -3619,13 +3575,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle3",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle3",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -3808,8 +3762,7 @@
                   {
                     "component": "text",
                     "name": "videoId4",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -3817,13 +3770,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle4",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle4",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -3978,8 +3929,7 @@
                   {
                     "component": "reference",
                     "name": "image5",
-                    "label": "Image",
-                    "multi": false
+                    "label": "Image"
                   },
                   {
                     "component": "text",
@@ -4006,8 +3956,7 @@
                   {
                     "component": "text",
                     "name": "videoId5",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -4015,13 +3964,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle5",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle5",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -4176,8 +4123,7 @@
                   {
                     "component": "reference",
                     "name": "image6",
-                    "label": "Image",
-                    "multi": false
+                    "label": "Image"
                   },
                   {
                     "component": "text",
@@ -4204,8 +4150,7 @@
                   {
                     "component": "text",
                     "name": "videoId6",
-                    "label": "Video ID",
-                    "value": ""
+                    "label": "Video ID"
                   }
                 ]
               },
@@ -4213,13 +4158,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "slideTitle6",
-                "label": "Title",
-                "value": ""
+                "label": "Title"
               },
               {
                 "component": "richtext",
                 "name": "slideSubTitle6",
-                "value": "",
                 "label": "Sub Title",
                 "valueType": "string"
               },
@@ -4345,6 +4288,7 @@
         "label": "Card details",
         "name": "cardDetails2",
         "valueType": "string",
+        "collapsible": false,
         "condition": {
           "===": [
             {
@@ -4364,8 +4308,7 @@
               {
                 "component": "reference",
                 "name": "cardImage1",
-                "label": "Image",
-                "multi": false
+                "label": "Image"
               },
               {
                 "component": "text",
@@ -4376,13 +4319,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow1",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description1",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4410,13 +4351,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow2",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description2",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4449,8 +4388,7 @@
               {
                 "component": "reference",
                 "name": "cardImage1",
-                "label": "Image",
-                "multi": false
+                "label": "Image"
               },
               {
                 "component": "text",
@@ -4461,13 +4399,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow1",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description1",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4495,13 +4431,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow2",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description2",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4529,13 +4463,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow3",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description3",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4580,13 +4512,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow1",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description1",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4614,13 +4544,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow2",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description2",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4648,13 +4576,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow3",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description3",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4682,13 +4608,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow4",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description4",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4733,13 +4657,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow1",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description1",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4767,13 +4689,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow2",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description2",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4801,13 +4721,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow3",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description3",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4835,13 +4753,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow4",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description4",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4869,13 +4785,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow5",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description5",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4920,13 +4834,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow1",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description1",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4954,13 +4866,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow2",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description2",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -4988,13 +4898,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow3",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description3",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -5022,13 +4930,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow4",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description4",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -5056,13 +4962,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow5",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description5",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
@@ -5090,13 +4994,11 @@
                 "component": "richtext",
                 "valueType": "string",
                 "name": "eyebrow6",
-                "label": "Eyebrow",
-                "value": ""
+                "label": "Eyebrow"
               },
               {
                 "component": "richtext",
                 "name": "description6",
-                "value": "",
                 "label": "Description",
                 "valueType": "string"
               }
