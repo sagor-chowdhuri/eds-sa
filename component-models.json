@@ -125,7 +125,6 @@
         "label": "primary-hero",
         "name": "hero banner",
         "valueType": "string",
-        "multi": true,
         "fields": [
           {
             "component": "select",
@@ -155,7 +154,8 @@
                   "var": "PrimarybackgroundType"
                 },
                 "imageSlide"
-              ]
+              ],
+              "multi": true
             },
             "fields": [
               {
