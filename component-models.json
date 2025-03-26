@@ -262,22 +262,32 @@
     ]
   },
   {
-    "id": "demo-comp",
-    "multi": true,
-    "fields": [
-      {
-        "component": "reference",
-        "name": "imageAlt1",
-        "label": "Alt123"
-      
-      },
+    "id": "primary-hero",
+    "fields": [ 
       {
         "component": "text",
         "valueType": "string",
-        "label": "title1123"
-        
+        "label": "Background Video",
+        "name": "background",
+        "required": true,
+        "description": "Upload video for the Primary Hero"
+      },
+      {
+        "component": "text",
+        "name": "text",
+        "label": "Title",
+        "valueType": "string",
+        "required": true,
+        "description": "Enter main heading for the Primary Hero"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "label": "Description",
+        "valueType": "string",
+        "description": "Enter description for additional context"
       }
-  ]
+    ]
   },
   {
     "id": "video",
