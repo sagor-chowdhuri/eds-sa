@@ -259,7 +259,7 @@
     ]
   },
   {
-    "id": "hero",
+    "id": "demo-comp",
     "fields": [
       {
         "component": "container",
@@ -281,8 +281,7 @@
                 "name": "Video",
                 "value": "videoSlide"
               }
-            ],
-            "multi": false
+            ]
           },
           {
             "component": "container",
@@ -302,7 +301,7 @@
                 "component": "reference",
                 "name": "image",
                 "label": "Image",
-                "multi": false
+                "description": "Upload video for the Primary Hero"
               },
               {
                 "component": "text",
@@ -328,7 +327,8 @@
               {
                 "component": "text",
                 "name": "videoId",
-                "label": "Enter Video ID"
+                "label": "Background Video",
+                "description": "Upload video for the Primary Hero"
               }
             ]
           }
@@ -339,12 +339,13 @@
         "name": "text",
         "required": true,
         "label": "Title",
-        "valueType": "string"
+        "valueType": "string",
+        "description": "Enter main heading for the Primary Hero"
       },
       {
         "component": "richtext",
         "name": "description",
-        "required": true,
+        "description": "Enter description for additional context",
         "label": "Description",
         "valueType": "string"
       }
