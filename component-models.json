@@ -228,7 +228,7 @@
       {
         "component": "reference",
         "label": "Text 2",
-        "name": "text1",
+        "name": "somethinf",
         "valueType": "string"
       },
       {
