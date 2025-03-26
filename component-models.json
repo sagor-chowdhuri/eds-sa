@@ -178,7 +178,7 @@
             "component": "select",
             "valueType": "string",
             "name": "PrimarybackgroundType",
-            "label": "Primary Background Type",
+            "label": "Primary Background Type1",
             "options": [
               {
                 "name": "Image",
