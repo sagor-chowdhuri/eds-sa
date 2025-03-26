@@ -317,7 +317,6 @@
             "label": "Slide 1 contents",
             "name": "slide1",
             "valueType": "string",
-            "collapsible": true,
             "fields": [
               {
                 "component": "select",
