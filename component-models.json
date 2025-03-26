@@ -260,28 +260,85 @@
   },
   {
     "id": "demo-comp",
-    "fields": [ 
+    "fields": [
+      {
+        "component": "select",
+        "name": "PrimarybackgroundType",
+        "label": "Primary Background Type",
+        "description":"Selct Background Type Primary Hero",
+        "required": true,
+        "options": [
+          {
+            "name": "Image",
+            "value": "imageSlide"
+          },
+          {
+            "name": "Video",
+            "value": "videoSlide"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "label": "Background Video",
+        "name": "BackgroundVideo",
+        "description": "Upload video for the Primary Hero",
+        "required": true,
+        "condition": {
+          "===": [
+            {
+              "var": "PrimarybackgroundType"
+            },
+            "videoSlide"
+          ]
+        }
+      },
       {
         "component": "reference",
         "valueType": "string",
-        "label": "Primary Overlay Icon",
-        "name": "icon",
+        "name": "BackgroundImage",
+        "label": "Background Image",
+        "description": "Upload video for the Primary Hero",
         "required": true,
-        "description": "Upload icon for Primary Hero with overlay"
+        "condition": {
+          "===": [
+            {
+              "var": "PrimarybackgroundType"
+            },
+            "imageSlide"
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "Image Alt",
+        "label": "Image Alt Text",
+        "description": "Add Alt Text for Image Primary Hero",
+        "condition": {
+          "===": [
+            {
+              "var": "PrimarybackgroundType"
+            },
+            "imageSlide"
+          ]
+        }
       },
       {
         "component": "text",
         "name": "text",
         "label": "Title",
+        "required": true,
         "valueType": "string",
-        "description": "Enter Title for Primary Hero with overlay"
+        "description": "Enter main heading for the Primary Hero"
       },
       {
         "component": "richtext",
         "name": "description",
         "label": "Description",
         "valueType": "string",
-        "description": "Enter description for Primary Hero overlay"
+        "description": "Enter description for additional context"
       }
     ]
   },
