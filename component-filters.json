@@ -21,9 +21,8 @@
     ]
   },
   {
-    "id": "hero",
+    "id": "cards",
     "components": [
-      "cards",
       "card"
     ]
   },
