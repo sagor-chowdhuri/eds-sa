@@ -712,7 +712,6 @@
         "label": "Slide details",
         "name": "SlideDetails3",
         "valueType": "string",
-        "collapsible": true,
         "condition": {
           "===": [
             {
@@ -1324,7 +1323,6 @@
         "label": "Slide details",
         "name": "SlideDetails4",
         "valueType": "string",
-        "collapsible": true,
         "condition": {
           "===": [
             {
@@ -2133,7 +2131,6 @@
         "label": "Slide details",
         "name": "SlideDetails5",
         "valueType": "string",
-        "collapsible": true,
         "condition": {
           "===": [
             {
@@ -3140,7 +3137,6 @@
         "label": "Slide details",
         "name": "SlideDetails6",
         "valueType": "string",
-        "collapsible": true,
         "condition": {
           "===": [
             {
