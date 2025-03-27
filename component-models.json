@@ -302,8 +302,8 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image123",
-        "label": "Image",
+        "name": "image",
+        "label": "Image123",
         "multi": false
       },
       {
