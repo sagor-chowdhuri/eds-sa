@@ -210,6 +210,20 @@
         }
       },
       {
+        "component": "boolean",
+        "label": "Enable Overlay?",
+        "name": "EnableOverlay",
+        "valueType": "boolean",
+        "condition": {
+          "===": [
+            {
+              "var": "PrimarybackgroundType"
+            },
+            "videoSlide"
+          ]
+        }
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "BackgroundImage",
