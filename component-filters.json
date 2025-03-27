@@ -28,7 +28,8 @@
     "id": "cards",
     "components": [
       "card",
-      "title"
+      "title",
+      "infobanner"
     ]
   },
   {
