@@ -18,7 +18,6 @@
       "fragment",
       "sus10",
       "acco",
-      "accordion",
       "carousel",
       "primary-header",
       "kalthuravideo"
@@ -28,7 +27,7 @@
     "id": "cards",
     "components": [
       "card",
-      "infoitem"
+      "accordion"
     ]
   },
   {
@@ -50,7 +49,7 @@
   {
     "id": "acco",
     "components": [
-      "infoitem"
+      "accordion"
     ]
   },
   {
