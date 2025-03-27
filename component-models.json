@@ -295,17 +295,14 @@
       }
     ]
   },
-  {
-    "id": "infobanner",
-    "fields": []
-  },
+  
   {
     "id": "infoitem",
     "fields": [
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
+        "name": "image123",
         "label": "Image",
         "multi": false
       },
