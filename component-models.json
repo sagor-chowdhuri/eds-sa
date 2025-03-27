@@ -300,7 +300,7 @@
     "fields": []
   },
   {
-    "id": "accordionItem",
+    "id": "infoitem",
     "fields": [
       {
         "component": "reference",
