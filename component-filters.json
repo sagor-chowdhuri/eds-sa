@@ -21,7 +21,8 @@
       "accordion",
       "carousel",
       "primary-header",
-      "kalthuravideo"
+      "kalthuravideo",
+      "accordionItem"
     ]
   },
   {
@@ -49,7 +50,7 @@
   {
     "id": "infobanner",
     "components": [
-      "infoitem"
+      "accordionItem"
     ]
   },
   {
