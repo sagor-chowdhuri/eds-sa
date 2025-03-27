@@ -16,8 +16,12 @@
       "cards",
       "columns",
       "fragment",
-      "demo-comp",
-      "video"
+      "sus10",
+      "infobanner",
+      "accordion",
+      "carousel",
+      "primary-header",
+      "kalthuravideo"
     ]
   },
   {
@@ -38,7 +42,29 @@
       "text",
       "image",
       "button",
+      "title",
+      "columns"
+    ]
+  },
+  {
+    "id": "infobanner",
+    "components": [
+      "infoitem"
+    ]
+  },
+  {
+    "id": "carousel",
+    "components": [
+      "text",
+      "image",
+      "button",
       "title"
+    ]
+  },
+  {
+    "id": "kalthuravideo",
+    "components": [
+      "text"
     ]
   }
 ]
