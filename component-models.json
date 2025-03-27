@@ -214,6 +214,7 @@
         "label": "Enable Overlay?",
         "name": "EnableOverlay",
         "valueType": "boolean",
+        "description": "Enable Overlay video for the Primary Hero",
         "condition": {
           "===": [
             {
