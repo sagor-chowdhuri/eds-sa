@@ -55,6 +55,12 @@
     ]
   },
   {
+    "id": "accordions",
+    "components": [
+      "accordion"
+    ]
+  },
+  {
     "id": "carousel",
     "components": [
       "text",
