@@ -295,12 +295,9 @@
       }
     ]
   },
+
   {
-    "id": "infobanner",
-    "fields": []
-  },
-  {
-    "id": "infoitem",
+    "id": "accordion",
     "fields": [
       {
         "component": "reference",
