@@ -17,7 +17,7 @@
       "columns",
       "fragment",
       "sus10",
-      "infobanner",
+      "acco",
       "accordion",
       "carousel",
       "primary-header",
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "id": "infobanner",
+    "id": "acco",
     "components": [
       "infoitem"
     ]
