@@ -18,7 +18,6 @@
       "fragment",
       "sus10",
       "infobanner",
-      "accordions",
       "carousel",
       "primary-header",
       "kalthuravideo"
@@ -29,7 +28,8 @@
     "components": [
       "card",
       "title",
-      "infobanner"
+      "infobanner",
+      "accordionItem"
     ]
   },
   {
@@ -52,12 +52,6 @@
     "id": "infobanner",
     "components": [
       "infoitem"
-    ]
-  },
-  {
-    "id": "accordions",
-    "components": [
-      "accordion"
     ]
   },
   {
