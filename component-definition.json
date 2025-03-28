@@ -83,6 +83,21 @@
       "id": "blocks",
       "components": [
         {
+          "title": "Accordion Card",
+          "id": "accordion-card",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/item",
+                "template": {
+                  "name": "Accordion Card",
+                  "filter": "accordion-card"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Cards",
           "id": "cards",
           "plugins": {
@@ -107,21 +122,6 @@
                 "template": {
                   "name": "Card",
                   "model": "card"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Accordion-card",
-          "id": "accordion-card",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Accordion-card",
-                  "model": "accordion-card"
                 }
               }
             }
