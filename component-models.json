@@ -118,7 +118,7 @@
     ]
   },
   {
-    "id": "accordion",
+    "id": "accordion-card",
     "fields": [
       {
         "component": "text",

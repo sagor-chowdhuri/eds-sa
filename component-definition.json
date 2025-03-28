@@ -113,15 +113,15 @@
           }
         },
         {
-          "title": "Accordion",
-          "id": "accordion",
+          "title": "Accordion-card",
+          "id": "accordion-card",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
-                  "name": "Accordion",
-                  "model": "accordion"
+                  "name": "Accordion-card",
+                  "model": "accordion-card"
                 }
               }
             }
