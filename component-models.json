@@ -5347,8 +5347,9 @@
       {
         "component": "select",
         "name": "accordionExpansion",
-        "label": "Accordion Expansion123",
+        "label": "Accordion Expansion",
         "description": "Select the relevant Accordion Expansion option",
+        "value": "none",
         "options": [
           {
             "name": "None",
@@ -5362,9 +5363,7 @@
             "name": "All",
             "value": "all"
           }
-        ],
-        "required": true
-
+        ]
       }
     ]
   },
