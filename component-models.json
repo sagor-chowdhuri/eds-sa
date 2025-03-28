@@ -5301,23 +5301,41 @@
     ]
   },
   {
-    "id": "accordion-Item",
-    "fields":[
+    "id": "accordion-card",
+    "fields": [
       {
         "component": "text",
-        "name": "videoId",
-        "label": "Enter Video ID",
-        "value": ""
+        "valueType": "string",
+        "name": "title",
+        "label": "Title",
+        "description": "Enter title of each accordion item",
+        "required": true
       },
       {
-        "component": "richtext",
-        "name": "herocontent",
-        "label": "Hero Content",
-        "value": ""
+        "component": "text",
+        "valueType": "string",
+        "name": "description",
+        "label": "Description",
+        "description": "Enter detailed description of each accordion item",
+        "required":true
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "valueType": "string",
+        "description": "Upload Image for the section content",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "imageAltTxt",
+        "label": "Image Alt text",
+        "valueType": "string",
+        "description": "Add alternative text for the image"
       }
-     
     ]
-  }
+  },
   {
     "id": "kalthuravideo",
     "fields":[

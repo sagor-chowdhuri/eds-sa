@@ -28,7 +28,7 @@
     "id": "cards",
     "components": [
       "card",
-      "accordion-Item"
+      "accordion-card"
     ]
   },
   {
