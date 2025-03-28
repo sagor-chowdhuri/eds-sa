@@ -132,7 +132,7 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image123",
+        "label": "Image",
         "multi": false
       },
       {
@@ -315,7 +315,7 @@
       {
         "component": "reference",
         "name": "image",
-        "label": "Image",
+        "label": "Image123",
         "valueType": "string"
       },
       {
