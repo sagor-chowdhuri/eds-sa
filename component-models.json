@@ -121,15 +121,31 @@
     "id": "accordion",
     "fields": [
       {
-        "component": "reference",
-        "name": "image",
-        "label": "Image",
-        "multi": false
+        "component": "text",
+        "name": "title",
+        "label": "Component Title",
+        "description": "Enter title for the entire Accordion Block"
       },
       {
-        "component": "text",
-        "name": "imageAlt",
-        "label": "Alt Text"
+        "component": "select",
+        "name": "accordionExpansion",
+        "label": "Accordion Expansion",
+        "required": true,
+        "description": "Select the relevant Accordion Expansion option",
+        "options": [
+          {
+            "name": "None",
+            "value": "none"
+          },
+          {
+            "name": "First",
+            "value": "first"
+          },
+          {
+            "name": "All",
+            "value": "all"
+          }
+        ]
       }
     ]
   },
@@ -140,25 +156,32 @@
         "component": "text",
         "valueType": "string",
         "name": "title",
-        "label": "Title"
+        "label": "Title",
+        "description": "Enter title of each accordion item",
+        "required": true
       },
       {
         "component": "text",
         "valueType": "string",
         "name": "description",
-        "label": "Description"
+        "label": "Description",
+        "description": "Enter detailed description of each accordion item",
+        "required":true
       },
       {
         "component": "reference",
         "name": "image",
         "label": "Image",
-        "valueType": "string"
+        "valueType": "string",
+        "description": "Upload Image for the section content",
+        "required": true
       },
       {
         "component": "text",
         "name": "imageAltTxt",
         "label": "Image Alt text",
-        "valueType": "string"
+        "valueType": "string",
+        "description": "Add alternative text for the image"
       }
     ]
   },
