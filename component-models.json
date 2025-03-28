@@ -5350,6 +5350,7 @@
         "label": "Accordion Expansion",
         "description": "Select the relevant Accordion Expansion option",
         "value": "none",
+        "required": true,
         "options": [
           {
             "name": "None",
