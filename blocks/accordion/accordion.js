@@ -3,6 +3,6 @@ export default async function decorate(block) {
   h1.textContent = 'Hello World123';
   block.innerHTML = '';
   block.append(h1);
-  }
-  
+}
+
   
