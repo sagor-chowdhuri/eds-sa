@@ -5347,7 +5347,7 @@
       {
         "component": "select",
         "name": "accordionExpansion",
-        "label": "Accordion Expansion",
+        "label": "Accordion Expansion123",
         "description": "Select the relevant Accordion Expansion option",
         "options": [
           {
