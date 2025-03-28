@@ -15,17 +15,21 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "sus10",
+      "infobanner",
+      "accordion",
+      "carousel",
+      "primary-header",
+      "kalthuravideo"
     ]
   },
   {
     "id": "cards",
     "components": [
-      "card",
-      "accordion-card"
+      "card"
     ]
   },
- 
   {
     "id": "columns",
     "components": [
@@ -38,7 +42,29 @@
       "text",
       "image",
       "button",
+      "title",
+      "columns"
+    ]
+  },
+  {
+    "id": "infobanner",
+    "components": [
+      "infoitem"
+    ]
+  },
+  {
+    "id": "carousel",
+    "components": [
+      "text",
+      "image",
+      "button",
       "title"
+    ]
+  },
+  {
+    "id": "kalthuravideo",
+    "components": [
+      "text"
     ]
   }
 ]
