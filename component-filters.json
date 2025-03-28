@@ -25,7 +25,12 @@
       "accordion"
     ]
   },
- 
+  {
+    "id": "cards",
+    "components": [
+      "card"
+    ]
+  },
   {
     "id": "columns",
     "components": [
