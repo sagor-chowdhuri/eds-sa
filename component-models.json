@@ -5301,6 +5301,24 @@
     ]
   },
   {
+    "id": "accordion-Item",
+    "fields":[
+      {
+        "component": "text",
+        "name": "videoId",
+        "label": "Enter Video ID",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "herocontent",
+        "label": "Hero Content",
+        "value": ""
+      }
+     
+    ]
+  }
+  {
     "id": "kalthuravideo",
     "fields":[
       {
