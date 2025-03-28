@@ -15,13 +15,7 @@
       "hero",
       "cards",
       "columns",
-      "fragment",
-      "sus10",
-      "customcontainer",
-      "accordion",
-      "carousel",
-      "primary-header",
-      "kalthuravideo"
+      "fragment"
     ]
   },
   {
@@ -29,6 +23,12 @@
     "components": [
       "card",
       "accordion"
+    ]
+  },
+  {
+    "id": "cards",
+    "components": [
+      "card"
     ]
   },
   {
@@ -43,24 +43,7 @@
       "text",
       "image",
       "button",
-      "title",
-      "columns"
-    ]
-  },
-
-  {
-    "id": "carousel",
-    "components": [
-      "text",
-      "image",
-      "button",
       "title"
-    ]
-  },
-  {
-    "id": "kalthuravideo",
-    "components": [
-      "text"
     ]
   }
 ]
