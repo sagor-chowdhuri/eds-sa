@@ -33,6 +33,12 @@
     ]
   },
   {
+    "id": "accordionCards",
+    "components": [
+      "accordion-card"
+    ]
+  },
+  {
     "id": "columns",
     "components": [
       "column"
