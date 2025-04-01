@@ -113,7 +113,7 @@
           }
         },
         {
-          "title": "InfoBanner",
+          "title": "InfoBanner1",
           "id": "infobanner",
           "plugins": {
             "xwalk": {
