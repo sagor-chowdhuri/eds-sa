@@ -69,7 +69,7 @@
     ]
   },
   {
-    "id": "text",
+    "id": "button",
     "fields": [
       {
         "component": "aem-content",
