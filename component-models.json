@@ -16,6 +16,18 @@
     ]
   },
   {
+    "id": "text",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "description",
+        "label": "Description",
+        "required": true,
+        "description": "Enter description for additional context which can have styling such as Bold, italics and  ability to add text links."
+      }
+    ]
+  },
+  {
     "id": "title",
     "fields": [
       {
