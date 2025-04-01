@@ -19,7 +19,7 @@
     "id": "text",
     "fields": [
       {
-        "component": "text",
+        "component": "richtext",
         "name": "description",
         "label": "Description",
         "required": true,
