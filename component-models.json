@@ -387,7 +387,7 @@
         "description": "Enter the title"
       },
       {
-        "component": "text",
+        "component": "link",
         "name": "CTA Link",
         "label": "CTA Link",
         "description": "Enter the URL to navigate when CTA is clicked"
@@ -397,7 +397,6 @@
         "name": "targetPath",
         "label": "Target Path",
         "description":"Select the target path for the authored CTA URL",
-        "required": true,
         "value": "sameTab",
         "options": [
           {
