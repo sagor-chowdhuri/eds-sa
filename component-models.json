@@ -237,7 +237,7 @@
           }
         },
         {
-          "component": "boolean",
+          "component": "text-area",
           "label": "Enable Overlay?",
           "name": "EnableOverlay",
           "valueType": "boolean",
