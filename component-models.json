@@ -16,10 +16,10 @@
     ]
   },
   {
-    "id": "title",
+    "id": "text",
     "fields": [
       {
-        "component": "richtext",
+        "component": "text",
         "name": "description",
         "label": "Description",
         "required": true,
@@ -353,14 +353,12 @@
         ]
       },
       {
-        "component": "aem-content-fragment",
-        "name": "picker",
-        "label": "Content Fragment Picker",
+        "component": "reference",
         "valueType": "string",
-        "variationName": "contentFragmentVariation",
-        "validation": {
-            "rootPath": "/content/dam"
-        }
+        "name": "imagePath",
+        "label": "Image Path",
+        "description": "Upload image for the teaser",
+        "required": true
       },
       {
         "component": "text",
