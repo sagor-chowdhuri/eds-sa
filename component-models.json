@@ -390,7 +390,8 @@
         "component": "aem-content",
         "name": "CTA Link",
         "label": "CTA Link",
-        "description": "Enter the URL to navigate when CTA is clicked"
+        "description": "Enter the URL to navigate when CTA is clicked",
+        "rootPath": "/content/test-eds"
       },
       {
         "component": "select",
