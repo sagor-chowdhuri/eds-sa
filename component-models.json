@@ -16,7 +16,7 @@
     ]
   },
   {
-    "id": "text",
+    "id": "title",
     "fields": [
       {
         "component": "richtext",
@@ -353,7 +353,7 @@
         ]
       },
       {
-        "component": "reference",
+        "component": "aem-content-fragment",
         "valueType": "string",
         "name": "imagePath",
         "label": "Image Path",
