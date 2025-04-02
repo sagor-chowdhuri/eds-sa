@@ -354,11 +354,13 @@
       },
       {
         "component": "aem-content-fragment",
+        "name": "picker",
+        "label": "Content Fragment Picker",
         "valueType": "string",
-        "name": "imagePath",
-        "label": "Image Path",
-        "description": "Upload image for the teaser",
-        "required": true
+        "variationName": "contentFragmentVariation",
+        "validation": {
+            "rootPath": "/content/dam"
+        }
       },
       {
         "component": "text",
