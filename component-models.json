@@ -387,6 +387,12 @@
         "description": "Enter the title"
       },
       {
+        "component": "text",
+        "name": "CTA Link",
+        "label": "CTA Link",
+        "description": "Enter the URL to navigate when CTA is clicked"
+      },
+      {
         "component": "select",
         "name": "targetPath",
         "label": "Target Path",
