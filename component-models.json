@@ -387,7 +387,7 @@
         "description": "Enter the title"
       },
       {
-        "component": "reference",
+        "component": "aem-content",
         "name": "CTA Link",
         "label": "CTA Link",
         "description": "Enter the URL to navigate when CTA is clicked"
