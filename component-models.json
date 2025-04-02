@@ -387,7 +387,7 @@
         "description": "Enter the title"
       },
       {
-        "component": "link",
+        "component": "reference",
         "name": "CTA Link",
         "label": "CTA Link",
         "description": "Enter the URL to navigate when CTA is clicked"
