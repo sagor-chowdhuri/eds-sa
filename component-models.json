@@ -356,10 +356,10 @@
         "valueType": "string"
       },
       {
-        "component": "richText",
-        "name": "richTextName",
-        "description":"richText",
-        "label": "richText",
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
         "valueType": "string"
       }
     ]
