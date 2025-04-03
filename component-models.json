@@ -356,8 +356,8 @@
         "valueType": "string"
       },
       {
-        "component": "text-area",
-        "name": "text",
+        "component": "richText",
+        "name": "richTextName",
         "description":"richText",
         "label": "richText",
         "valueType": "string"
