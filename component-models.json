@@ -357,10 +357,10 @@
       },
       {
         "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "valueType": "string",
+        "name": "slideTitle1",
+        "label": "Title",
+        "value": ""
       }
     ]
   },
