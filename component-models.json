@@ -339,20 +339,27 @@
         "valueType": "string",
         "name": "image",
         "label": "Image",
-        "multi": false
+        "description":"image"
       },
       {
         "component": "text-input",
         "valueType": "string",
         "name": "imageAlt",
         "label": "Alt",
-        "value": ""
+        "description":"imageAlt"
       },
       {
         "component": "text-area",
         "name": "text",
-        "value": "",
+        "description":"text",
         "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "text-area",
+        "name": "text",
+        "description":"richText",
+        "label": "richText",
         "valueType": "string"
       }
     ]
