@@ -5318,6 +5318,20 @@
     "id": "accordion-card",
     "fields": [
       {
+        "component": "text-input",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "text-area",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
         "component": "text",
         "valueType": "string",
         "name": "title",
