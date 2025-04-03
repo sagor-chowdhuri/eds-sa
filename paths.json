@@ -2,9 +2,11 @@
   "mappings": [
     "/content/test-eds/:/",
     "/content/test-eds/configuration:/.helix/config.json",
-    "/content/test-eds/metadata:/metadata.json"
+    "/content/test-eds/metadata:/metadata.json",
+    "/content/dam/:/"
   ],
   "includes": [
-    "/content/test-eds/"
+    "/content/test-eds/",
+    "/content/dam/"
   ]
 }
