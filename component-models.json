@@ -331,39 +331,7 @@
     "id": "infobanner",
     "fields": []
   },
-  {
-    "id": "teaser",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "description":"image"
-      },
-      {
-        "component": "text-input",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "description":"imageAlt"
-      },
-      {
-        "component": "text-area",
-        "name": "text",
-        "description":"text",
-        "label": "Text",
-        "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "slideTitle1",
-        "label": "Title",
-        "value": ""
-      }
-    ]
-  },
+ 
   {
     "id": "infoitem",
     "fields": [
