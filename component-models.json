@@ -335,83 +335,25 @@
     "id": "teaser",
     "fields": [
       {
-        "component": "select",
-        "name": "imagePlacement",
-        "label": "Image Placement",
-        "description":"Select the appropriate column for image placement",
-        "required": true,
-        "value": "left",
-        "options": [
-          {
-            "name": "Left",
-            "value": "left"
-          },
-          {
-            "name": "Right",
-            "value": "right"
-          }
-        ]
-      },
-      {
         "component": "reference",
         "valueType": "string",
-        "name": "imagePath",
-        "label": "Image Path",
-        "description": "Upload image for the teaser",
-        "required": true
+        "name": "image",
+        "label": "Image",
+        "multi": false
       },
       {
-        "component": "text",
-        "name": "imageAltTxt",
-        "label": "Image Alt text",
+        "component": "text-input",
         "valueType": "string",
-        "description": "Pick alt text from AEM DAM with ability to override it"
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
       },
       {
-        "component": "text",
-        "name": "title",
-        "label": "Title",
-        "description": "Enter the title",
-        "required": true 
-      },
-      {
-        "component": "richtext",
-        "name": "description",
-        "label": "Description",
-        "description": "Enter the title",
-        "required": true
-      },
-      {
-        "component": "text",
-        "name": "ctaLabel",
-        "label": "CTA Label",
-        "description": "Enter the title"
-      },
-      {
-        "component": "aem-content",
-        "name": "CTA Link",
-        "label": "CTA Link",
-        "description": "Enter the URL to navigate when CTA is clicked",
-        "validation": {
-            "rootPath": "/content/test-eds"
-        }
-      },
-      {
-        "component": "select",
-        "name": "targetPath",
-        "label": "Target Path",
-        "description":"Select the target path for the authored CTA URL",
-        "value": "sameTab",
-        "options": [
-          {
-            "name": "Same Tab",
-            "value": "sameTab"
-          },
-          {
-            "name": "New Tab",
-            "value": "newTab"
-          }
-        ]
+        "component": "text-area",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   },
