@@ -16,10 +16,10 @@
     ]
   },
   {
-    "id": "text",
+    "id": "text-component",
     "fields": [
       {
-        "component": "text",
+        "component": "richtext",
         "name": "description",
         "label": "Description",
         "required": true,
